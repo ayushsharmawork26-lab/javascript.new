@@ -1,20 +1,20 @@
-const accountId = 14436
+// const accountId = 14436
 
-let accountEmail = "Ayushsharma@123" 
+// let accountEmail = "Ayushsharma@123" 
 
-var idPassword = "1233"
+// var idPassword = "1233"
 
-accountCity = "chandighr"
+// accountCity = "chandighr"
 
 // accountId = 2 // not allowed*
 
-accountEmail =  "htttp.com"
+// accountEmail =  "htttp.com"
 
-idPassword = "234455555"
+// idPassword = "234455555"
 
-accountCity = "nagota"
+// accountCity = "nagota"
 
-console.log(accountId);
+// console.log(accountId);
 
 // \**
 
@@ -23,7 +23,6 @@ console.log(accountId);
 // because of issue in block scope and funntion scope*
 
 //   \**
+// console.table([accountId, accountEmail, idPassword, accountCity]);
 
 
-
-console.table([accountId, accountEmail, idPassword, accountCity]);
