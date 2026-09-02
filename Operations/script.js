@@ -26,6 +26,6 @@ let str2= " ayush"
 // console.log(x++);
 // console.log(x);
 
-let x = 3;
-console.log(++x);
-console.log(x);
+// let x = 3;
+// console.log(++x);
+// console.log(x);
