@@ -95,15 +95,15 @@
 
 // 10. Hard Task 💪 ?
 // solve===>
-     let age = 21;
-     let marks = 80;
-     let attendance = 75;
+    //  let age = 21;
+    //  let marks = 80;
+    //  let attendance = 75;
 
-     let result =
-          age >= 18 &&
-          marks >= 60 &&
-          attendance >= 75
-          ? "Eligible"
-          : "Not Eligible";
+    //  let result =
+    //       age >= 18 &&
+    //       marks >= 60 &&
+    //       attendance >= 75
+    //       ? "Eligible"
+    //       : "Not Eligible";
 
-          console.log(result);
+    //       console.log(result);
