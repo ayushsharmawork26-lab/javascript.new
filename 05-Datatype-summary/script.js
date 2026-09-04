@@ -31,3 +31,27 @@
 // }
 
 // console.log(typeof heros);
+
+//  +++++++=++++++++++++++++++++++++++++++++++++++++++
+
+// stcak (primtive value) heap (Non-    Primitive)
+
+// let myYoutubename = "ayushsharmadoxxxxxx"
+// let anothername = myYoutubename
+// anothername = "Ayushcode"
+
+// console.log(myYoutubename);
+
+// console.log(anothername);
+
+// let userOne = {
+//    email: "Ayushsharma@gmail.com",
+//    upi: "ayush@12282727"
+// }
+
+// let userTwo = userOne
+
+// userTwo.email = "ayush@27383738.com"
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
