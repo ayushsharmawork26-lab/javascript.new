@@ -109,10 +109,151 @@
 // output 7>   object
 // output 8>   object
 
+// stcak (primtive value) heap (Non-    Primitive) (10 task)
+
+// Task 1 : >
+// let a = 10;
+// let b = a;
+// b = 20;
+
+// console.log(a);
+// console.log(b);
+
+// output = 1> 10
+//          2> 20
 
 
+// Task 2 : >
+
+// let name1 = "Ayush";
+// let name2 = name1;
+
+// name2 = "Rahul";
+
+// console.log(name1);
+// console.log(name2);
+
+// output : 1> Ayush
+//          2> Rahul
 
 
+// Task 3 : >
 
+// let user1 = {
+//     name: "Ayush"
+// };
 
+// let user2 = user1;
 
+// user2.name = "Rahul";
+
+// console.log(user1.name);
+// console.log(user2.name);
+
+// output : 1> Rahul
+//          2> Rahul
+
+// Task 4 : >
+
+// let arr1 = [10, 20, 30];
+// let arr2 = arr1;
+
+// arr2.push(40);
+
+// console.log(arr1);
+// console.log(arr2);
+
+// output : 1> [10, 20, 30, 40]
+//          2> [10, 20, 30, 40]
+
+// Task 5 :>
+
+// let x = 100;
+// let y = x;
+
+// x= 200;
+
+// console.log(x); 
+// console.log(y);
+
+// output: 1> 200
+//         2> 100
+
+// Task 6 : >
+
+// let obj1 = {
+//     age: 20
+// };
+
+// let obj2 = {
+//     age: 20
+// };
+
+// console.log(obj1 === obj2);
+
+// output: 1> False
+
+// Task 7 : >
+
+// let a = [1, 2, 3];
+// let b = a;
+
+// b = [4, 5, 6];
+
+// console.log(a);
+// console.log(b);
+
+// output: 1> [1, 2, 3]
+//         2> [4, 5, 6]
+
+// Task 8 : >
+
+// let user = {
+//     name: "Ayush",
+//     skills: ["HTML", "CSS"]
+// };
+
+// let newUser = user;
+
+// newUser.skills.push("Javascript");
+
+// console.log(user.skills);
+
+// output: 1> ["HTML", "CSS", "Javascript"]
+
+// Task 9: >
+
+// let obj1 = {
+//     name: "Ayush"
+// };
+
+// let obj2 = obj1;
+
+// obj1 = {
+//     name: "Rahul"
+// };
+
+// console.log(obj1.name);
+// console.log(obj2.name);
+
+// output: 1> Rahul
+//         2> Ayush
+
+// Task 10 >
+
+// let user1 = {
+//     name: "Ayush",
+//     address: {
+//         city: "Chandigahr"
+//     }
+// };
+
+// let user2 = user1;
+
+// user2.address.city = "Delhi";
+
+// console.log(user1.address.city);
+// console.log(user2.address.city);
+
+// Output: 1> Delhi
+//         2> Delhi
