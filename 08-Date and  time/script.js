@@ -16,4 +16,16 @@ let myCreateDate = new Date("01-14-2023")
 let myTimeStamp = Date.now()
 // console.log(myTimeStamp);
 // console.log(myCreateDate.getTime());
-console.log(Math.floor(Date.now()/100));
+// console.log(Math.floor(Date.now()/100));
+
+// let newDate = new Date()
+// console.log(newDate);
+// console.log(newDate.getMonth() + 1);
+// console.log(newDate.getDay());
+
+// ${newDate.getDay()} and the time
+
+newDate.toLocaleString('default',{
+    weekday: "long",
+    
+});
