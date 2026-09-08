@@ -54,24 +54,40 @@
 // . Date
 // . Day
 // Solve:=>
-let date = new Date("2025-12-25");
-console.log("Year:", date.getFullYear());
-console.log("Month:", date.getMonth() + 1);
-console.log("Date:", date.getDate());
+// let date = new Date("2025-12-25");
+// console.log("Year:", date.getFullYear());
+// console.log("Month:", date.getMonth() + 1);
+// console.log("Date:", date.getDate());
 
-let days = [
-     "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-];
+// let days = [
+//      "Sunday",
+//     "Monday",
+//     "Tuesday",
+//     "Wednesday",
+//     "Thursday",
+//     "Friday",
+//     "Saturday"
+// ];
 
-console.log("Day:", days[date.getDay()]);
+// console.log("Day:", days[date.getDay()]);
 
 // output: 1> Year: 2025
 //         2> Month: 12
 //         3> Date: 25
 //         4>  Day: Thursday
+
+// Q6. Create a date with a specific time, for example 5:30 PM, and print it using toLocaleString()?
+// Solve:=>
+    // let date =  new Date(2025, 11, 25, 17, 30);
+    
+    // console.log(date.toLocaleString());
+
+    // output: 1> 12/25/2025, 5:30:00 PM
+
+// Q7. Use Date.now() to get the current timestamp and print it ?
+// Solve:=>
+    // let timestamp = Date.now();
+
+    // console.log(timestamp);
+
+    // output: 1> 1788839427624
