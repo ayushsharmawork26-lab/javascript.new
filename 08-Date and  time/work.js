@@ -78,40 +78,66 @@
 
 // Q6. Create a date with a specific time, for example 5:30 PM, and print it using toLocaleString()?
 // Solve:=>
-    // let date =  new Date(2025, 11, 25, 17, 30);
-    
-    // console.log(date.toLocaleString());
+// let date =  new Date(2025, 11, 25, 17, 30);
 
-    // output: 1> 12/25/2025, 5:30:00 PM
+// console.log(date.toLocaleString());
+
+// output: 1> 12/25/2025, 5:30:00 PM
 
 // Q7. Use Date.now() to get the current timestamp and print it ?
 // Solve:=>
-    // let timestamp = Date.now();
+// let timestamp = Date.now();
 
-    // console.log(timestamp);
+// console.log(timestamp);
 
-    // output: 1> 1788839427624
+// output: 1> 1788839427624
 
 // Q8. Create a date and use getTime() to convert it into a timestamp?
 // Solve:=>
-    // let date = new Date("2025-12-25");
-    
-    // console.log(date.getTime());
+// let date = new Date("2025-12-25");
 
-    // output: 1> 1766620800000
+// console.log(date.getTime());
+
+// output: 1> 1766620800000
 
 // Q9. Print the current date in this format ?
 // Solve:=>
-    // let date = new Date();
+// let date = new Date();
 
-    // console.log(
-    //     date.toLocaleDateString("en-us",{
-    //         weekday: "long",
-    //         day: "numeric",
-    //         month: "long",
-    //         year:"numeric"
+// console.log(
+//     date.toLocaleDateString("en-us",{
+//         weekday: "long",
+//         day: "numeric",
+//         month: "long",
+//         year:"numeric"
 
-    //     })
-    // );
+//     })
+// );
 
-    // output: 1> Wednesday, September 9, 2026
+// output: 1> Wednesday, September 9, 2026
+
+// Q10. Create a date and use toLocaleString() to print only ?
+// . Weekday
+// . Month
+// . Day
+// . Year
+// . Hour
+// . Minute
+// . Second
+
+// Solve:=>
+// let date = new Date();
+
+// console.log(
+//     date.toLocaleString("en-us", {
+//         weekday: "long",
+//         month: "long",
+//         day: "numeric",
+//         year: "numeric",
+//         hour: "numeric",
+//         minute: "numeric",
+//         second: "numeric"
+//     })
+// );
+
+// output:=> Wednesday, September 9, 2026 at 8:07:47 AM
