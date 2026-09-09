@@ -91,3 +91,27 @@
     // console.log(timestamp);
 
     // output: 1> 1788839427624
+
+// Q8. Create a date and use getTime() to convert it into a timestamp?
+// Solve:=>
+    // let date = new Date("2025-12-25");
+    
+    // console.log(date.getTime());
+
+    // output: 1> 1766620800000
+
+// Q9. Print the current date in this format ?
+// Solve:=>
+    // let date = new Date();
+
+    // console.log(
+    //     date.toLocaleDateString("en-us",{
+    //         weekday: "long",
+    //         day: "numeric",
+    //         month: "long",
+    //         year:"numeric"
+
+    //     })
+    // );
+
+    // output: 1> Wednesday, September 9, 2026
