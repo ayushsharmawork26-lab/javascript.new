@@ -11,5 +11,12 @@ console.log(myArr[1]);
 // myArr.pop()
 
 // myArr.unshift(9)
-myArr.shift()
+// myArr.shift()
+
+// console.log(myArr.includes(9));
+// console.log(myArr.indexOf(9));
+
+const newArr = myArr.join()
+
+console.log(typeof newArr);
 console.log(myArr);
