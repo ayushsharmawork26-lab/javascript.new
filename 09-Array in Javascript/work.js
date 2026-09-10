@@ -34,3 +34,20 @@
     // console.log(Name);
 
 //  output: 1> ["Ayush", "Rahul", "Aman", "Rohit", "Vikas"]
+
+// Q5. Create an array of numbers [10, 20, 30, 40]. Remove the last element using pop() and print the updated array ?
+// Solve:=>
+
+    // let numbers = [10, 20, 30, 40];
+    // numbers.pop();
+    // console.log(numbers);
+    
+// output: 1> [10, 20, 30]
+
+// Q6. Create an array of colors ["Red", "Blue", "Green"]. Add "Yellow" at the beginning using unshift() ?
+// Solve:=>
+    // let colors = ["Red", "Blue", "Green"];
+    // colors.unshift("Yellow");
+    // console.log(colors);
+
+// output: 1> ["Yellow", "Red", "Blue", "Green"]
