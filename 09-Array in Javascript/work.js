@@ -51,3 +51,27 @@
     // console.log(colors);
 
 // output: 1> ["Yellow", "Red", "Blue", "Green"]
+
+// Q7. Create an array ["HTML", "CSS", "JavaScript", "React"]. Remove the first element using shift() and print the updated array ?
+// Solve:=>
+    // let skills = ["HTML", "CSS", "JavaScript", "React"];
+    // skills.shift();
+
+    // console.log(skills);
+
+// output: 1> ["CSS", "JavaScript", "React"]
+
+// Q8. Create an array of numbers [5, 10, 15, 20, 25]. Use a for loop to print every element ?
+// Solve:=>
+
+    // let numbers = [5, 10, 15, 20, 25];
+
+    // for (let i = 0; i < numbers.length; i++){
+    //     console.log(numbers[i]);
+    // }
+
+// output 1> 5
+//        2> 10
+//        3> 15
+//        4> 20
+//        5> 25
