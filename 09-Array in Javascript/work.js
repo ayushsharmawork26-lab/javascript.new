@@ -75,3 +75,29 @@
 //        3> 15
 //        4> 20
 //        5> 25
+
+// Q9. Create an array [1, 2, 3, 4, 5]. Use map() to create a new array containing the square of each number ?
+// Solve:=>
+  
+    // let numbers = [1, 2, 3, 4, 5];
+
+    // let square = numbers.map(function(num){
+    //     return num * num;
+    // });
+
+    // console.log(square);
+
+// output: 1> [1, 4, 9, 16, 25]
+
+// Q10. Create an array [10, 15, 20, 25, 30, 35]. Use filter() to create a new array containing only numbers greater than 20 ?
+// Solve:=>
+
+    // let numbers = [10, 15, 20, 25, 30, 35];
+
+    // let result = numbers.filter(function(num){
+    //     return num > 20;
+    // });
+
+    // console.log(result);
+
+// output: 1> [25, 30, 35]
