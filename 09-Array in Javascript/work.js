@@ -104,8 +104,8 @@
 
 // ++++++++++++++++++ Array2 +++++++++++++//
 
-const marvel_heros = ["thor", "Ironman", "spiderman",]
-const dc_heros = ["superman", "flash", "batman"]
+// const marvel_heros = ["thor", "Ironman", "spiderman",]
+// const dc_heros = ["superman", "flash", "batman"]
 
 // marvel_heros.push(dc_heros)
 
@@ -115,21 +115,44 @@ const dc_heros = ["superman", "flash", "batman"]
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
-const all_new_heros = [...marvel_heros, ...dc_heros]
+// const all_new_heros = [...marvel_heros, ...dc_heros]
 
-// console.log(all_new_heros);
+// // console.log(all_new_heros);
 
-const another_array = [1, 2, 3, [4, 5, 6], 7, [6,7, [4,5]]]
+// const another_array = [1, 2, 3, [4, 5, 6], 7, [6,7, [4,5]]]
 
-const real_another_array = another_array.flat(Infinity)
-console.log(real_another_array);
+// const real_another_array = another_array.flat(Infinity)
+// console.log(real_another_array);
 
-console.log(Array.isArray("Ayush"))
-console.log(Array.from("Ayush"));
-console.log(Array.from({name: "ayush"}))       ///////   Interesting
+// console.log(Array.isArray("Ayush"))
+// console.log(Array.from("Ayush"));
+// console.log(Array.from({name: "ayush"}))       ///////   Interesting
 
-let Score1 = 100
-let Score2 = 200
-let Score3 = 300
+// let Score1 = 100
+// let Score2 = 200
+// let Score3 = 300
 
-console.log(Array.of(Score1, Score2, Score3));
+// console.log(Array.of(Score1, Score2, Score3));
+
+//  +++++++++++++++++++  (2 part of Array) +++++++++++++++///
+// Q1. Create an array of 5 numbers and print the largest number ?
+// Solve:=>
+//     let number = [10, 25, 7, 50, 32];
+     
+//    let largest = Math.max(...number);
+//    console.log(largest);
+
+//    output: 1> 50
+
+// Q2. Create an array of numbers and calculate the sum of all elements using a loop?
+// Solve:=>
+    // let numbers = [10, 20, 30, 40, 50];
+    // let sum = 0;
+
+    // for (let i = 0; i < numbers.length; i++) {
+    //     sum += numbers[i];
+    // }
+
+    // console.log(sum);
+
+    // output: 1> 150
