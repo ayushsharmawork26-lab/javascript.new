@@ -156,3 +156,21 @@
     // console.log(sum);
 
     // output: 1> 150
+
+// Q3. Create an array and use filter() to print only the even numbers ?
+// Solve:=>
+    // let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+    // let evenNumbers = numbers.filter((num) => num % 2 === 0);
+
+    // console.log(evenNumbers);
+
+//  output: 1> [2, 4, 6, 8]
+
+// Q4. Create an array of numbers and use map() to create a new array containing the square of each number ?
+// Solve:=>
+    // let numbers = [2, 3, 4, 5];
+    // let squares = numbers.map((num) => num * num);
+
+    // console.log(squares);
+
+// output: 1> [4, 9, 16, 25]
