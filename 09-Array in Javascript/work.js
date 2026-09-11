@@ -101,3 +101,13 @@
     // console.log(result);
 
 // output: 1> [25, 30, 35]
+
+// ++++++++++++++++++ Array2 +++++++++++++//
+
+const marvel_heros = ["thor", "Ironman", "spiderman",]
+const dc_heros = ["superman", "flash", "batman"]
+
+marvel_heros.push(dc_heros)
+
+console.log(marvel_heros);
+console.log(marvel_heros[3] [1]);
