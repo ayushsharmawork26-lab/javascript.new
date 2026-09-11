@@ -127,3 +127,9 @@ console.log(real_another_array);
 console.log(Array.isArray("Ayush"))
 console.log(Array.from("Ayush"));
 console.log(Array.from({name: "ayush"}))       ///////   Interesting
+
+let Score1 = 100
+let Score2 = 200
+let Score3 = 300
+
+console.log(Array.of(Score1, Score2, Score3));
