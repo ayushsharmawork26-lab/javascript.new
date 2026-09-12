@@ -208,3 +208,35 @@
     //  console.log(uniqueNumbers);
 
 // Output: [10, 20, 30, 40]
+
+// Q9. Create an array of student objects ?
+// [
+//   { name: "Ayush", marks: 85 },
+//   { name: "Rahul", marks: 72 },
+//   { name: "Aman", marks: 91 }
+// ]
+// Use filter() to print students whose marks are greater than 80
+// Solve:=>
+//     let students = [
+//   { name: "Ayush", marks: 85 },
+//   { name: "Rahul", marks: 72 },
+//   { name: "Aman", marks: 91 }
+// ];
+
+// let result = students.filter((student) => student.marks > 80);
+
+// console.log(result);
+
+// output: 1> [
+    //  {name: "Ayush", marks: 85 },
+    //  {name:  "Aman", marks: 91}
+// ]
+
+// Q10. Create an array of numbers and use reduce() to find the total sum of all numbers ?
+// Solve:=>
+    // let numbers = [10, 20, 30, 40, 50];
+    // let total = numbers.reduce((sum, num) => sum + num, 0);
+
+    // console.log(total);
+
+    // output: 1> 150
