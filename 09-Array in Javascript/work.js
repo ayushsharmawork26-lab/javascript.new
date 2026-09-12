@@ -189,3 +189,22 @@
 
     // console.log(result);
     // output: 1> 60
+
+// Q7. Create an array of numbers and sort them in ascending order ?
+// Solve:=>
+    // let numbers = [50, 10, 40, 20, 30];
+    // numbers.sort((a, b) => a - b);
+
+    // console.log(numbers);
+
+// output: 1> [10, 20, 30, 40, 50]
+
+// Q8. Create an array containing duplicate values and remove the duplicate elements ?
+// Solve:=>
+    // let numbers = [10, 20, 10, 30, 20, 40, 30];
+
+    // let uniqueNumbers = [...new Set(numbers)];
+
+    //  console.log(uniqueNumbers);
+
+// Output: [10, 20, 30, 40]
