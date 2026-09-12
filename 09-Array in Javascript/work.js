@@ -174,3 +174,18 @@
     // console.log(squares);
 
 // output: 1> [4, 9, 16, 25]
+
+// Q5. Create an array of names and check whether "Ayush" exists using includes() ?
+// Solve:=>
+    // let names = ["Rahul", "Aman", "Ayush", "Rohit"];
+     
+    // console.log(names.includes("Ayush"));
+    // output: 1> true
+
+// Q6. Create an array of numbers and find the first number greater than 50 using find() ?
+// solve:=>
+    // let number = [20, 35, 45, 60, 75];
+    // let result = number.find((num) => num > 50);
+
+    // console.log(result);
+    // output: 1> 60
