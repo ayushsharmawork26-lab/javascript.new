@@ -61,3 +61,32 @@
     // console.log(person);
 
 // output: 1>  {name: 'Ayush', age: 23, job: 'Full stack Developer'}
+
+// Q5. Delete a property
+// >Create a mobile object with brand, model, price, and color. Delete the color property and print the object.
+// Solve:=>
+// const mobile = {
+//     brand: "Samsung",
+//     model: "S25",
+//     price: 70000,
+//     color: "Black"
+// };
+
+// delete mobile.color;
+// console.log(mobile);
+// output: 1> {brand: 'Samsung', model: 'S25', price: 70000}
+
+// Q6. Object with array
+// > Create a student object containing:
+// > name
+// > age
+// > subjects
+// Solve:=>
+    // const student = {
+    //     name: "Ayush",
+    //     age:  23,
+    //     subjects: ["JavaScript", "React", "Node.js"]
+    // };
+
+    // console.log(student.subjects[1]);
+    // output 1> React
