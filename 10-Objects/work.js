@@ -90,3 +90,49 @@
 
     // console.log(student.subjects[1]);
     // output 1> React
+
+// Q7. Object method
+// > Create a user object with a name property and a greet() method.
+// The method should print:
+// Hello, my name is Ayush
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+
+    //     greet: function(){
+    //         console.log(`Hello, my name is ${this.name}`);
+    //     }
+    // };
+
+    // user.greet();
+
+    // output: 1> Hello, my name is Ayush
+
+// Q8. Nested object
+// > Create an object student containing:
+// > name
+// > age
+// > address
+
+// > Inside address, add:
+
+// > city 
+// > state
+// > pincode
+// Solve:=>
+    // const student = {
+    //     name: "Ayush",
+    //     age:  23,
+
+    //     address: {
+    //         city: "Chandighar",
+    //         state: "Punjab",
+    //         pincode: 160001
+    //     }
+    // };
+
+    // console.log(student.address.city);
+    // console.log(student.address.state);
+
+// output 1> Chandighar
+//        2> Punjab
