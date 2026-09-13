@@ -20,3 +20,8 @@ console.log(jsUser.email)
 console.log(jsUser["email"])
 console.log(jsUser["full name"])
 console.log(typeof jsUser.mySym)
+
+jsUser.email = "ayush@chatgpt.com"
+Object.freeze(jsUser)
+jsUser.email = "ayush@ceosoft.com"
+console.log(jsUser)
