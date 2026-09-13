@@ -136,3 +136,53 @@
 
 // output 1> Chandighar
 //        2> Punjab
+
+// Q9. Object.keys() and Object.values()
+// > Create a product object with:
+// > name
+// > price
+// > category
+// > stock
+
+// Print:
+// All keys using Object.keys()
+// All values using Object.values()
+// Solve:=>
+    // const product = {
+    //    name: "Laptop",
+    //    price: 55000,
+    //    category: "Electronics",
+    //    stock: 10
+    // };
+
+    // console.log(Object.keys(product));
+    // console.log(Object.values(product));
+
+// Output: 1> ["name", "price", "category", "stock"]
+//         2> ["Laptop", 55000, "Electronics", 10]
+
+// Q10. for...in loop
+// > Create an object:
+// const jsUser = {
+//     name: "Ayush",
+//     age: 23,
+//     city: "Chandigarh",
+//     course: "MCA"
+// };
+// Solve:=>
+//     const jsUser = {
+//     name: "Ayush",
+//     age: 23,
+//     city: "Chandigarh",
+//     course: "MCA"
+// };
+
+// for (let key in jsUser) {
+//     console.log(`${key} : ${jsUser[key]}`);
+
+// }
+
+// output 1> name : Ayush
+//        2> age : 23
+//        3> city : Chandigarh
+//        4>  course : MCA
