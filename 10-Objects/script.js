@@ -40,6 +40,23 @@
 // +++++++++++++++++++ Objects part 2 ++++++++++++++++++++++++++++///
 
 // const tinderUser = new Object() (single term object)
-// const tinderUser = {}  (non single term object)
+const tinderUser = {}   //(non single term object)
 
-console.log(tinderUser);
+tinderUser.id = "123abc"
+tinderUser.name ="Ayush"
+tinderUser.isLoggedIn = false
+
+// console.log(tinderUser);
+
+const regularuser = {
+    email: "ayush@gamil.com",
+    fullname: {
+        userfullname: {
+            firstname: "Ayush",
+            lastname: "Sharma"
+        }              
+    }
+}
+
+// console.log(regularuser.fullname.userfullname.firstname);
+
