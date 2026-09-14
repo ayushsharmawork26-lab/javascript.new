@@ -282,3 +282,37 @@
     // console.log(total);
 
 // output: 1> 100000
+
+// Q7. Create an object student containing:
+// marks: {
+//     maths: 80,
+//     science: 75,
+//     english: 90
+// }
+// Print the science marks.
+// Solve:=>
+    // const student = {
+    //     name: "Ayush",
+    //     marks: {
+    //         maths: 80,
+    //         science: 75,
+    //         english: 90
+    //     }
+    // };
+
+    // console.log(student.marks.science);
+// output: 1> 75
+
+// Q8. Create an object containing an array ?
+// skills: ["HTML", "CSS", "JavaScript", "React"]
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+    //     skills: ["HTML", "CSS", "JavaScript", "React"]
+    // };
+
+    // console.log(user.skills[1]);
+    // console.log(user.skills[3]);
+
+// output 1> CSS
+//        2> React
