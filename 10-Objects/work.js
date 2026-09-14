@@ -186,3 +186,44 @@
 //        2> age : 23
 //        3> city : Chandigarh
 //        4>  course : MCA
+
+// +++++++++++++++++++ (Part 2) +++++++++++++++++++++++++++
+
+// Q1. Create an object student with name, age, course, and city. Print all values using dot notation ?
+// Solve:=>
+    // const student = {
+    //     name: "Ayush",
+    //     age: 23,
+    //     course: "MCA",
+    //     city: "Chandighar"
+    // };
+
+    // console.log(student.name);
+    // console.log(student.age);
+    // console.log(student.course);
+    // console.log(student.city);
+
+// Output: 1> Ayush
+//         2> 23
+//         3> MCA
+//         4> Chandighar
+
+// Q2. Create an object:
+// const user = {
+//     name: "Ayush",
+//     age: 23,
+//     email: "ayush@gmail.com"
+// };
+// Change the age to 24 and print the updated object.
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+    //     age: 23,
+    //     email: "ayush@gamil.com"
+    // };
+
+    // user.age = 24;
+
+    // console.log(user);
+
+// Output: 1> { name: "Ayush", age: 24, email: "ayush@gmail.com" }
