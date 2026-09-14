@@ -227,3 +227,29 @@
     // console.log(user);
 
 // Output: 1> { name: "Ayush", age: 24, email: "ayush@gmail.com" }
+
+// Q3. Add a new property isLoggedIn: true to an existing object and print it ?
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+    //     age: 23
+    // };
+
+    // user.isLoggedIn = true;
+
+    // console.log(user);
+
+// Output  1> {name: 'Ayush', age: 23, isLoggedIn: true}
+
+// Q4. Delete the email property from an object and print the object ?
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+    //     age: 23,
+    //     email: "ayush@gamil.com"
+    // };
+
+    // delete user.email;
+
+    // console.log(user);
+// Output 1> {name: 'Ayush', age: 23}
