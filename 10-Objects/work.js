@@ -253,3 +253,32 @@
 
     // console.log(user);
 // Output 1> {name: 'Ayush', age: 23}
+
+// Q5. Create an object with a property "full name". Access it using bracket notation ?
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+    //     "full name": "Ayush Sharma"
+    // };
+
+    // console.log(user["full name"])
+
+// output 1> Ayush Sharma
+
+// Q6. Create an object product with:
+// > name
+// > price
+// > quantity
+// > Calculate and print the total price (price × quantity).
+// Solve:=>
+    // const product = {
+    //     name: "Laptop",
+    //     price: 50000,
+    //     quantity: 2
+    // };
+
+    // const total = product.price * product.quantity;
+
+    // console.log(total);
+
+// output: 1> 100000
