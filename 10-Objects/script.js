@@ -36,3 +36,10 @@
 
 // console.log(jsUser.greeting());
 // console.log(jsUser.greetingTwo());
+
+// +++++++++++++++++++ Objects part 2 ++++++++++++++++++++++++++++///
+
+// const tinderUser = new Object() (single term object)
+// const tinderUser = {}  (non single term object)
+
+console.log(tinderUser);
