@@ -303,6 +303,7 @@
     // console.log(student.marks.science);
 // output: 1> 75
 
+
 // Q8. Create an object containing an array ?
 // skills: ["HTML", "CSS", "JavaScript", "React"]
 // Solve:=>
@@ -316,3 +317,36 @@
 
 // output 1> CSS
 //        2> React
+
+// Q9. Use Object.keys() and Object.values() on an object and print both results ?
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+    //     age: 23,
+    //     city: "Chandighar"
+    // };
+
+    // console.log(Object.keys(user));
+    // console.log(Object.values(user));
+
+// output 1> ["name", "age", "city"]
+//           ["Ayush", 23, "Chandigarh"] 
+
+// Q10. Create a user object with name, age, and city. Use a for...in loop to print ?
+// name : Ayush
+// age : 23
+// city : Chandigarh
+// Solve:=>
+//     const user = {
+//         name: "Ayush",
+//         age: 23,
+//         city: "Chandighar"
+//     };
+
+// for (const key in user) {
+//     console.log(key + " : " + user[key]);
+// }
+
+// output 1> name : Ayush
+//        2> age : 23
+//        3> city : Chandigarh
