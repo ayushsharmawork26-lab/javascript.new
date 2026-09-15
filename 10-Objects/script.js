@@ -93,17 +93,17 @@
 
 // +++++++++++++ ( object de-structure and JSON API intro) ++++++++++++++++///
 
-const course = {
-    coursename: "js in hindi",
-    price: "999",
-    courseInstructore: " Ayush "
-}
+// const course = {
+//     coursename: "js in hindi",
+//     price: "999",
+//     courseInstructore: " Ayush "
+// }
 
-// course.courseInstructore
+// // course.courseInstructore
 
-const {courseInstructore} = course
+// const {courseInstructore} = course
 
-console.log(courseInstructore);
+// console.log(courseInstructore);
 
 // {
 //    "name": "Ayush",

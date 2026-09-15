@@ -350,3 +350,38 @@
 // output 1> name : Ayush
 //        2> age : 23
 //        3> city : Chandigarh
+
+// ++++++++ ( JavaScript Object Destructuring & JSON API — 10 Practice Questions ) +++++++
+
+// Q1. Create an object user with name, age, and email. Use object destructuring to extract all three values and print them ?
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+    //     age: 23,
+    //     email: "ayush@gmail.com"
+    // };
+
+    // const { name, age, email } = user;
+
+    // console.log(name);
+    // console.log(age);
+    // console.log(email);
+// output: 1> Ayush
+//         2> 23
+//         3> ayush@gmail.com
+
+// Q2. Create an object:
+// > Destructure only name and course and print them.
+// Solve:=>
+//     const student = {
+//     name: "Ayush",
+//     course: "MCA",
+//     age: 23
+// };
+
+// const { name, course} = student;
+
+// console.log(name);
+// console.log(course);
+// output: 1> Ayush
+//         2> MCA
