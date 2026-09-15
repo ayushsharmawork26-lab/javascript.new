@@ -37,28 +37,28 @@
 // Q3. Update object property
 // > Create a car object with brand, model, and price. Change the price and print the updated object.
 // Solve:=>
-    // const car = {
-    //     brand: "Toyota",
-    //     model: "Fortuner",
-    //     price: 350000
-    // };
+// const car = {
+//     brand: "Toyota",
+//     model: "Fortuner",
+//     price: 350000
+// };
 
-    // car.price = 40000000;
+// car.price = 40000000;
 
-    // console.log(car);
+// console.log(car);
 
-    // output: 1> brand: 'Toyota', model: 'Fortuner', price: 40000000}
+// output: 1> brand: 'Toyota', model: 'Fortuner', price: 40000000}
 
 // Q4. Add a new property
 // > Create a person object with name and age. Add a new property job and print the object.
 // Solve:=>
-    // const person = {
-    //     name: "Ayush",
-    //     age:  23
-    // };
+// const person = {
+//     name: "Ayush",
+//     age:  23
+// };
 
-    // person.job = "Full stack Developer";
-    // console.log(person);
+// person.job = "Full stack Developer";
+// console.log(person);
 
 // output: 1>  {name: 'Ayush', age: 23, job: 'Full stack Developer'}
 
@@ -82,31 +82,31 @@
 // > age
 // > subjects
 // Solve:=>
-    // const student = {
-    //     name: "Ayush",
-    //     age:  23,
-    //     subjects: ["JavaScript", "React", "Node.js"]
-    // };
+// const student = {
+//     name: "Ayush",
+//     age:  23,
+//     subjects: ["JavaScript", "React", "Node.js"]
+// };
 
-    // console.log(student.subjects[1]);
-    // output 1> React
+// console.log(student.subjects[1]);
+// output 1> React
 
 // Q7. Object method
 // > Create a user object with a name property and a greet() method.
 // The method should print:
 // Hello, my name is Ayush
 // Solve:=>
-    // const user = {
-    //     name: "Ayush",
+// const user = {
+//     name: "Ayush",
 
-    //     greet: function(){
-    //         console.log(`Hello, my name is ${this.name}`);
-    //     }
-    // };
+//     greet: function(){
+//         console.log(`Hello, my name is ${this.name}`);
+//     }
+// };
 
-    // user.greet();
+// user.greet();
 
-    // output: 1> Hello, my name is Ayush
+// output: 1> Hello, my name is Ayush
 
 // Q8. Nested object
 // > Create an object student containing:
@@ -120,19 +120,19 @@
 // > state
 // > pincode
 // Solve:=>
-    // const student = {
-    //     name: "Ayush",
-    //     age:  23,
+// const student = {
+//     name: "Ayush",
+//     age:  23,
 
-    //     address: {
-    //         city: "Chandighar",
-    //         state: "Punjab",
-    //         pincode: 160001
-    //     }
-    // };
+//     address: {
+//         city: "Chandighar",
+//         state: "Punjab",
+//         pincode: 160001
+//     }
+// };
 
-    // console.log(student.address.city);
-    // console.log(student.address.state);
+// console.log(student.address.city);
+// console.log(student.address.state);
 
 // output 1> Chandighar
 //        2> Punjab
@@ -148,15 +148,15 @@
 // All keys using Object.keys()
 // All values using Object.values()
 // Solve:=>
-    // const product = {
-    //    name: "Laptop",
-    //    price: 55000,
-    //    category: "Electronics",
-    //    stock: 10
-    // };
+// const product = {
+//    name: "Laptop",
+//    price: 55000,
+//    category: "Electronics",
+//    stock: 10
+// };
 
-    // console.log(Object.keys(product));
-    // console.log(Object.values(product));
+// console.log(Object.keys(product));
+// console.log(Object.values(product));
 
 // Output: 1> ["name", "price", "category", "stock"]
 //         2> ["Laptop", 55000, "Electronics", 10]
@@ -191,17 +191,17 @@
 
 // Q1. Create an object student with name, age, course, and city. Print all values using dot notation ?
 // Solve:=>
-    // const student = {
-    //     name: "Ayush",
-    //     age: 23,
-    //     course: "MCA",
-    //     city: "Chandighar"
-    // };
+// const student = {
+//     name: "Ayush",
+//     age: 23,
+//     course: "MCA",
+//     city: "Chandighar"
+// };
 
-    // console.log(student.name);
-    // console.log(student.age);
-    // console.log(student.course);
-    // console.log(student.city);
+// console.log(student.name);
+// console.log(student.age);
+// console.log(student.course);
+// console.log(student.city);
 
 // Output: 1> Ayush
 //         2> 23
@@ -216,52 +216,52 @@
 // };
 // Change the age to 24 and print the updated object.
 // Solve:=>
-    // const user = {
-    //     name: "Ayush",
-    //     age: 23,
-    //     email: "ayush@gamil.com"
-    // };
+// const user = {
+//     name: "Ayush",
+//     age: 23,
+//     email: "ayush@gamil.com"
+// };
 
-    // user.age = 24;
+// user.age = 24;
 
-    // console.log(user);
+// console.log(user);
 
 // Output: 1> { name: "Ayush", age: 24, email: "ayush@gmail.com" }
 
 // Q3. Add a new property isLoggedIn: true to an existing object and print it ?
 // Solve:=>
-    // const user = {
-    //     name: "Ayush",
-    //     age: 23
-    // };
+// const user = {
+//     name: "Ayush",
+//     age: 23
+// };
 
-    // user.isLoggedIn = true;
+// user.isLoggedIn = true;
 
-    // console.log(user);
+// console.log(user);
 
 // Output  1> {name: 'Ayush', age: 23, isLoggedIn: true}
 
 // Q4. Delete the email property from an object and print the object ?
 // Solve:=>
-    // const user = {
-    //     name: "Ayush",
-    //     age: 23,
-    //     email: "ayush@gamil.com"
-    // };
+// const user = {
+//     name: "Ayush",
+//     age: 23,
+//     email: "ayush@gamil.com"
+// };
 
-    // delete user.email;
+// delete user.email;
 
-    // console.log(user);
+// console.log(user);
 // Output 1> {name: 'Ayush', age: 23}
 
 // Q5. Create an object with a property "full name". Access it using bracket notation ?
 // Solve:=>
-    // const user = {
-    //     name: "Ayush",
-    //     "full name": "Ayush Sharma"
-    // };
+// const user = {
+//     name: "Ayush",
+//     "full name": "Ayush Sharma"
+// };
 
-    // console.log(user["full name"])
+// console.log(user["full name"])
 
 // output 1> Ayush Sharma
 
@@ -271,15 +271,15 @@
 // > quantity
 // > Calculate and print the total price (price × quantity).
 // Solve:=>
-    // const product = {
-    //     name: "Laptop",
-    //     price: 50000,
-    //     quantity: 2
-    // };
+// const product = {
+//     name: "Laptop",
+//     price: 50000,
+//     quantity: 2
+// };
 
-    // const total = product.price * product.quantity;
+// const total = product.price * product.quantity;
 
-    // console.log(total);
+// console.log(total);
 
 // output: 1> 100000
 
@@ -291,43 +291,43 @@
 // }
 // Print the science marks.
 // Solve:=>
-    // const student = {
-    //     name: "Ayush",
-    //     marks: {
-    //         maths: 80,
-    //         science: 75,
-    //         english: 90
-    //     }
-    // };
+// const student = {
+//     name: "Ayush",
+//     marks: {
+//         maths: 80,
+//         science: 75,
+//         english: 90
+//     }
+// };
 
-    // console.log(student.marks.science);
+// console.log(student.marks.science);
 // output: 1> 75
 
 
 // Q8. Create an object containing an array ?
 // skills: ["HTML", "CSS", "JavaScript", "React"]
 // Solve:=>
-    // const user = {
-    //     name: "Ayush",
-    //     skills: ["HTML", "CSS", "JavaScript", "React"]
-    // };
+// const user = {
+//     name: "Ayush",
+//     skills: ["HTML", "CSS", "JavaScript", "React"]
+// };
 
-    // console.log(user.skills[1]);
-    // console.log(user.skills[3]);
+// console.log(user.skills[1]);
+// console.log(user.skills[3]);
 
 // output 1> CSS
 //        2> React
 
 // Q9. Use Object.keys() and Object.values() on an object and print both results ?
 // Solve:=>
-    // const user = {
-    //     name: "Ayush",
-    //     age: 23,
-    //     city: "Chandighar"
-    // };
+// const user = {
+//     name: "Ayush",
+//     age: 23,
+//     city: "Chandighar"
+// };
 
-    // console.log(Object.keys(user));
-    // console.log(Object.values(user));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
 
 // output 1> ["name", "age", "city"]
 //           ["Ayush", 23, "Chandigarh"] 
@@ -355,17 +355,17 @@
 
 // Q1. Create an object user with name, age, and email. Use object destructuring to extract all three values and print them ?
 // Solve:=>
-    // const user = {
-    //     name: "Ayush",
-    //     age: 23,
-    //     email: "ayush@gmail.com"
-    // };
+// const user = {
+//     name: "Ayush",
+//     age: 23,
+//     email: "ayush@gmail.com"
+// };
 
-    // const { name, age, email } = user;
+// const { name, age, email } = user;
 
-    // console.log(name);
-    // console.log(age);
-    // console.log(email);
+// console.log(name);
+// console.log(age);
+// console.log(email);
 // output: 1> Ayush
 //         2> 23
 //         3> ayush@gmail.com
@@ -419,17 +419,17 @@
 
 // Q5. Create an object containing name, age, and email. Use destructuring with a default value for phone if it does not exist ?
 // Solve:=>
-    // const user = {
-    //     name: "Ayush",
-    //     age: 23,
-    //     email: "ayush@gmail.com"
-    // };
+// const user = {
+//     name: "Ayush",
+//     age: 23,
+//     email: "ayush@gmail.com"
+// };
 
-    // const { name,  age, phone = "Not Available"} = user;
+// const { name,  age, phone = "Not Available"} = user;
 
-    // console.log(name);
-    // console.log(age);
-    // console.log(phone);
+// console.log(name);
+// console.log(age);
+// console.log(phone);
 
 // Output: 1> Ayush
 //         2> 23
@@ -452,11 +452,11 @@
 // Q7. Convert the following JSON string back into a JavaScript object using JSON.parse() ?
 // Print the name and city.
 // Solve:=>
-    // const jsonData = '{"name":"Ayush","age":23,"city":"Chandigarh"}';
-    // const user = JSON.parse(jsonData);
+// const jsonData = '{"name":"Ayush","age":23,"city":"Chandigarh"}';
+// const user = JSON.parse(jsonData);
 
-    // console.log(user.name);
-    // console.log(user.city);
+// console.log(user.name);
+// console.log(user.city);
 
 // output: 1> Ayush
 //         2> Chandigarh
@@ -480,3 +480,54 @@
 // output 1> Ayush
 //        2> ayush@gmail.com
 //        3> ["HTML", "CSS", "JavaScript"]
+
+// Q9. Use fetch() to get data from this API:
+// Solve:=>
+// fetch("https://jsonplaceholder.typicode.com/users")
+//     .then(response => response.json())
+//     .then(data => {
+//         const names = data.map(user => user.name);
+//         console.log(names);
+//     })
+//     .catch(error => console.log(error));
+
+// output 1>0) ['Leanne Graham', 'Ervin Howell', 'Clementine Bauch', 'Patricia Lebsack', 'Chelsey Dietrich', 'Mrs. Dennis Schulist', 'Kurtis Weissnat', 'Nicholas Runolfsdottir V', 'Glenna Reichert', 'Clementina DuBuque']
+// 0: "Leanne Graham"
+// 1:"Ervin Howell"
+// 2:"Clementine Bauch"
+// 3:"Patricia Lebsack"
+// 4:"Chelsey Dietrich"
+// 5:"Mrs. Dennis Schulist"
+// 6:"Kurtis Weissnat"
+// 7:"Nicholas Runolfsdottir V"
+// 8:"Glenna Reichert"
+// 9:"Clementina DuBuque"
+// length:10
+
+// 10. Use fetch() with async/await to get data from:
+// Use object destructuring to extract name, username, and email, then print them.
+// Solve:=>
+    async function getUser() {
+    try {
+        const response = await fetch(
+            "https://jsonplaceholder.typicode.com/users/1"
+        );
+
+        const data = await response.json();
+
+        const { name, username, email } = data;
+
+        console.log(name);
+        console.log(username);
+        console.log(email);
+
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+getUser();
+
+// output: 1> Leanne Graham
+//         2> Bret
+//         3> Sincere@april.biz
