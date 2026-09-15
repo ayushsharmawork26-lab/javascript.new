@@ -385,3 +385,34 @@
 // console.log(course);
 // output: 1> Ayush
 //         2> MCA
+
+// Q3. Create an object with a property fullName. Use destructuring to store it in a variable called name ?
+// const user = {
+//     fullName: "Ayush Sharma",
+//     age: 23
+// };
+
+// const { fullName: name} = user;
+// console.log(name);
+// output: 1> Ayush Sharma
+
+// Q4. Create a nested object ?
+// Use nested destructuring to extract city and country =>
+// Solve:=>
+//     const user = {
+//     name: "Ayush",
+//     address: {
+//         city: "Chandigarh",
+//         country: "India"
+//     }
+// };
+
+// const {
+//     address: { city, country }
+// } = user;
+
+// console.log(city);
+// console.log(country);
+
+// Output: 1> Chandighar
+//         2> India
