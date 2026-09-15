@@ -448,3 +448,35 @@
 // console.log(jsonData);
 
 // output: 1> {"name":"Ayush","age":23,"course":"MCA"}
+
+// Q7. Convert the following JSON string back into a JavaScript object using JSON.parse() ?
+// Print the name and city.
+// Solve:=>
+    // const jsonData = '{"name":"Ayush","age":23,"city":"Chandigarh"}';
+    // const user = JSON.parse(jsonData);
+
+    // console.log(user.name);
+    // console.log(user.city);
+
+// output: 1> Ayush
+//         2> Chandigarh
+
+// Q8. Given this API-style JSON data ?
+// Use destructuring to extract name, email, and skills
+// Solve:=>
+//     const data = {
+//     "id": 101,
+//     "name": "Ayush",
+//     "email": "ayush@gmail.com",
+//     "skills": ["HTML", "CSS", "JavaScript"]
+// };
+
+// const {name, email, skills} = data;
+
+// console.log(name);
+// console.log(email);
+// console.log(skills);
+
+// output 1> Ayush
+//        2> ayush@gmail.com
+//        3> ["HTML", "CSS", "JavaScript"]
