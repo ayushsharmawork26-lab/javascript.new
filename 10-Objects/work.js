@@ -416,3 +416,35 @@
 
 // Output: 1> Chandighar
 //         2> India
+
+// Q5. Create an object containing name, age, and email. Use destructuring with a default value for phone if it does not exist ?
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+    //     age: 23,
+    //     email: "ayush@gmail.com"
+    // };
+
+    // const { name,  age, phone = "Not Available"} = user;
+
+    // console.log(name);
+    // console.log(age);
+    // console.log(phone);
+
+// Output: 1> Ayush
+//         2> 23
+//         3> Not Available
+
+// Q6. Convert this JavaScript object into a JSON string using JSON.stringify() ?
+// Solve:=>
+//     const user = {
+//     name: "Ayush",
+//     age: 23,
+//     course: "MCA"
+// };
+
+// const jsonData = JSON.stringify(user);
+
+// console.log(jsonData);
+
+// output: 1> {"name":"Ayush","age":23,"course":"MCA"}
