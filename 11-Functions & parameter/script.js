@@ -19,11 +19,18 @@ function sayMyNmae() {
 function addTwoNumbers(number1, Number2){
    
     let result = number1 + Number2
-     console.log("Ayush");
+    //  console.log("Ayush");
     return result
    
 }
 
 const result = addTwoNumbers(3, 5)
 
-console.log("result: ", result);
+// console.log("result: ", result);
+
+function loginUsermessage(username){
+    return `${username} just logged in`
+} 
+
+// console.log(loginUsermessage("Ayush"))
+console.log(loginUsermessage("Ayush"));
