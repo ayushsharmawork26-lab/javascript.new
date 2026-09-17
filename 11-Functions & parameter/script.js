@@ -29,8 +29,12 @@ const result = addTwoNumbers(3, 5)
 // console.log("result: ", result);
 
 function loginUsermessage(username){
+    if(username === undefined){
+       console.log("Please entry a username")
+       return
+    }
     return `${username} just logged in`
 } 
 
 // console.log(loginUsermessage("Ayush"))
-console.log(loginUsermessage("Ayush"));
+console.log(loginUsermessage());
