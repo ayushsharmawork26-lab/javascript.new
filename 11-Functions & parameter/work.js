@@ -38,3 +38,23 @@
     // console.log(subtract(20, 8));
 
 // output: 12
+
+// Q5. Create a function multiply(a, b) that accepts two parameters and returns their multiplication ?
+// Solve:=>
+    // function multiply(a, b){
+    //     return a * b;
+    // }
+
+    // console.log(multiply(5, 4));
+
+// output: 1> 20
+
+// Q6. Create a function square(num) that accepts one parameter and returns its square ?
+// Solve:=>
+    // function square(num) {
+    //     return num * num;
+    // }
+
+    // console.log(square(6));
+
+// output: 1> 36
