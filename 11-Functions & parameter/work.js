@@ -82,3 +82,23 @@
     // console.log(calculateAge(2002));
 
 // Output: 1> 24
+
+// Q9. Create a function maxNumber(a, b, c) that accepts three parameters and returns the largest number ?
+// Solve:=>
+//     function maxNumber(a, b, c) {
+//         return Math.max(a, b, c);
+//     }
+
+// console.log(maxNumber(25, 50, 35));
+
+// output: 1> 50
+
+// Q10. Create a function calculateTotal(price, quantity) that takes price and quantity as parameters and returns the total amount ?
+// Solve:=>
+    // function calculateTotal(price, quantity) {
+    //     return price * quantity;
+    // }
+
+    // console.log(calculateTotal(500, 3));
+
+// output: 1> 1500
