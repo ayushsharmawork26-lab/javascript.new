@@ -58,3 +58,27 @@
     // console.log(square(6));
 
 // output: 1> 36
+
+// Q7. Create a function checkEvenOdd(num) that checks whether a number is even or odd ?
+// Solve:=>
+    // function checkEvenOdd(num) {
+    //     if (num % 2 === 0) {
+    //         console.log("Even");
+    //     } else {
+    //         console.log("Odd");
+    //     }
+    // }
+
+    // checkEvenOdd(7);
+
+// output: 1> Odd
+
+// Q8. Create a function calculateAge(birthYear) that calculates and returns the person's age ?
+// Solve:=>
+    // function calculateAge(birthYear) {
+    //     return 2026 - birthYear;
+    // }
+
+    // console.log(calculateAge(2002));
+
+// Output: 1> 24
