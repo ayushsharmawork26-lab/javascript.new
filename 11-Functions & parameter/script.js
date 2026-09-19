@@ -45,4 +45,16 @@ function calculateCarPrice(...num1){
     return num1
 }
 
-console.log(calculateCarPrice(200, 400, 500, 5000))
+// console.log(calculateCarPrice(200, 400, 500, 5000))
+
+const user = {
+    username: "Ayush",
+    prices: 199
+}
+
+function handleObjects(anyobject){
+    console.log(`username is ${anyobject.username} and price is $ {anyobject.price}`);
+
+}
+
+handleObjects(user)
