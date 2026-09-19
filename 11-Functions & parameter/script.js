@@ -8,6 +8,8 @@
 //     console.log("S");
 //     console.log("H");
 
+const { use } = require("react");
+
 // }
 
 // // sayMyNmae()
@@ -57,4 +59,8 @@ function handleObjects(anyobject){
 
 }
 
-handleObjects(user)
+// handleObjects(user)
+handleObjects({
+    username: "sam",
+    price: 399
+})
