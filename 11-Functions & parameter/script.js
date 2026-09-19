@@ -38,3 +38,11 @@
 
 // // console.log(loginUsermessage("Ayush"))
 // console.log(loginUsermessage());
+
+// +++++++++++++++++++++ Functions With Objects ++++++++++++++//
+
+function calculateCarPrice(...num1){
+    return num1
+}
+
+console.log(calculateCarPrice(200, 400, 500, 5000))
