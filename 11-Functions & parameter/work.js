@@ -249,3 +249,23 @@
 //         2> Subtraction: 200
 //         3> Multiplication: 200
 //         4> Division: 2
+
+// Q8. Create an object employee with name, salary, and experience. Create a function that increases the salary by 10% if experience is greater than 2 years ?
+// Solve:=>
+    // const employee = {
+    //     name: "Ayush",
+    //     salary: 30000,
+    //     experience: 3
+    // };
+
+    // function increaseSalary(obj){
+    //     if (obj.experience > 2) {
+    //         obj.salary = obj.salary + (obj.salary * 10 / 100);
+    //     }
+
+    //     return obj.salary;
+    // }
+
+    // console.log(increaseSalary(employee));
+
+// output: 1> 33000
