@@ -144,3 +144,33 @@
 
 // checkResult(student);
 // Output: 1> Pass
+
+// Q3. Create an object person with firstName and lastName. Create a function that returns the full name ?
+// Solve:=>
+//     const person = {
+//         firstName: "Ayush",
+//         lastName: "Sharma"
+//     };
+
+//     function fullName(Obj) {
+//         return Obj.firstName + " " + Obj.lastName;
+//     }
+
+// console.log(fullName(person));
+// output: 1> Ayush Sharma
+
+// Q4. Create an object product with name, price, and quantity. Create a function that calculates and returns the total price ?
+// Solve:=>
+//     const product = {
+//         name: "Laptop",
+//         price: 5000,
+//         quantity: 2
+//     };
+
+//     function totalPrice(obj) {
+//         return obj.price * obj.quantity;
+//     }
+
+// console.log(totalPrice(product));
+
+// Output: 1> 10000
