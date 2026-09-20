@@ -174,3 +174,41 @@
 // console.log(totalPrice(product));
 
 // Output: 1> 10000
+
+// Q5. Create an object car with brand, model, and year. Create a function carDetails() that prints the car information ?
+// Solve:=>
+    // const car = {
+    //     brand: "Toyota",
+    //     model: "Fortuner",
+    //     year: 2024
+    // };
+
+    // function carDetails(obj) {
+    //     console.log("Brand:", obj.brand);
+    //     console.log("Model:", obj.model);
+    //     console.log("Year", obj.year);
+    // }
+
+    // carDetails(car);
+
+// output: 1> Brand: Toyota
+//         2> Model: Fortuner
+//         3> year: 2024
+
+// Q6. Create an object user with name and age. Create a function that takes the object as a parameter and prints "Adult" if age is 18 or above, otherwise "Minor" ?
+// Solve:=>
+    // const user2 = {
+    //     name: "Ayush",
+    //     age: 23
+    // };
+
+    // function checkAge(obj) {
+    //     if (obj.age >= 18) {
+    //         console.log("Adult");
+    //     } else {
+    //         console.log("Minor")
+    //     }
+    // }
+    // checkAge(user2);
+
+// output: 1> Adult
