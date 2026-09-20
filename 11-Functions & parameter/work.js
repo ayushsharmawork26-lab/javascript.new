@@ -102,3 +102,45 @@
     // console.log(calculateTotal(500, 3));
 
 // output: 1> 1500
+
+
+// +++++++++++++++++++++++( JavaScript Functions + Objects — 10 Tasks )+++++++++++++++++++++++
+
+// Q1. Create an object user with name, age, and city. Create a function showUser() that prints all the object values?
+// Solve:=>
+
+    // const user = {
+    //     name: "Ayush",
+    //     age: 23,
+    //     city: "Chandighar"
+    // };
+
+    // function showUser(obj) {
+    //     console.log(obj.name);
+    //     console.log(obj.age);
+    //     console.log(obj.city);
+    // }
+
+    // showUser(user);
+
+// Output: 1> Ayush
+        // 2> 23
+        // 3> Chandighar
+
+// Q2. Create an object student with name and marks. Create a function checkResult() that prints "Pass" if marks are 40 or above, otherwise "Fail" ?
+// Solve:=>
+//     const student = {
+//         name: "Ayush",
+//         marks: 75
+//     };
+
+//     function checkResult(obj) {
+//         if (obj.marks >= 40) {
+//             console.log("pass");
+//         } else {
+//             console.log("Fail");
+//         }
+//     }
+
+// checkResult(student);
+// Output: 1> Pass
