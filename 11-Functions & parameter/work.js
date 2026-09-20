@@ -269,3 +269,55 @@
     // console.log(increaseSalary(employee));
 
 // output: 1> 33000
+
+// Q9. Create an object student with ?
+// Solve:=>
+    // const student2 = {
+    //     name: "Ayush",
+    //     marks: [80, 75, 90, 85]
+    // };
+
+    // function averageMarks(obj) {
+    //     let total = 0;
+
+    //     for (let mark of obj.marks) {
+    //         total += mark;
+    //     }
+
+    //     return total / obj.marks.length;
+    // }
+
+    // console.log(averageMarks(student2));
+
+// output: 1> 82.5
+
+// Q10. Create an object bankAccount with name and balance. Create two functions ?
+// > deposit(amount) → adds money to balance
+// > withdraw(amount) → subtracts money if sufficient balance is available.
+// Solve:=>
+    // const bankAccount = {
+    //     name: "Ayush",
+    //     balance: 5000
+    // };
+
+    // function deposit(amount) {
+    //     bankAccount.balance += amount;
+    //     console.log("Balance:", bankAccount.balance);
+    // }
+
+    // function withdraw(amount) {
+    //     if (amount <= bankAccount.balance) {
+    //         bankAccount.balance -= amount;
+    //         console.log("Balance:", bankAccount.balance);
+    //     } else {
+    //         console.log("Insufficient Balance");
+    //     }
+    // }
+
+    // deposit(2000);
+    // withdraw(3000);
+    // withdraw(10000);
+
+// output 1> Balance: 7000
+//        2> Balance: 4000
+//        3> Insufficient Balance
