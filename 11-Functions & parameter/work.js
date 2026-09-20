@@ -212,3 +212,40 @@
     // checkAge(user2);
 
 // output: 1> Adult
+
+// Q7. Create an object calculator with two numbers a and b. Create separate functions for: ?
+// > Addition
+// > Subtraction
+// > Multiplication
+// > Division
+// Solve:=>
+//     const calculator = {
+//         a: 20,
+//         b: 10
+//     };
+
+//     function add(obj) {
+//         return obj.a - obj.b;
+//     }
+
+//     function subtract(obj) {
+//         return obj.a * obj.b;
+//     }
+
+//     function multiply(obj) {
+//     return obj.a * obj.b;
+// }
+
+// function divide(obj) {
+//     return obj.a / obj.b;
+// }
+
+// console.log("Addition:", add(calculator));
+// console.log("Subtraction:", subtract(calculator));
+// console.log("Multiplication:", multiply(calculator));
+// console.log("Division:", divide(calculator));
+
+// output: 1> Addition: 10
+//         2> Subtraction: 200
+//         3> Multiplication: 200
+//         4> Division: 2
