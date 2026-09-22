@@ -120,3 +120,29 @@
 
 // output: 1> 30
 
+// Q9. Create a global variable language = "JavaScript". Create a function that prints this variable without declaring it again inside the function ?
+// Solve:=> 
+    // let language = "JavaScript";
+      
+    //  function showLanguage() {
+    //     console.log(language);
+    //  }
+
+    //  showLanguage();
+
+// Output: 1> JavaScript
+
+// Q10. Predict the output:
+// Solve:=>
+//     let username = "Ayush";
+
+//     function test() {
+//     let username = "Rahul";
+//     console.log(username);
+//  }
+
+//    test();
+//    console.log(username);
+
+// output: 1> Rahul
+//         2> Ayush
