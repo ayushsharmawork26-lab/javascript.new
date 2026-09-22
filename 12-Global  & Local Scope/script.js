@@ -13,27 +13,41 @@
 
 // +++++++++++++++++++( Scope level in javascript )++++++++++++++++++
 
-function one(){
-    const username = "Ayush"
+// function one(){
+//     const username = "Ayush"
 
-    function two(){
-        const website = "Youtube"
-        console.log(username);
-    }
-    // console.log(website);
+// //     function two(){
+// //         const website = "Youtube"
+// //         console.log(username);
+// //     }
+// //     // console.log(website);
 
-    two()
-}
+// //     two()
+// // }
 
-// one()
+// // // one()
 
-if (true) {
-    const username = "Ayush"
-    if (username === "Ayush") {
-       const website = " youtube" 
-    //    console.log(username + website);
-    }
-    // console.log(website);
-}
+// // if (true) {
+// //     const username = "Ayush"
+// //     if (username === "Ayush") {
+// //        const website = " youtube" 
+//     //    console.log(username + website);
+//     }
+//     // console.log(website);
+// }
 
-// console.log(username);
+// // console.log(username);
+
+// +++++++++++++++++++++ interesting ++++++++++++++++++++++
+// console.log (addone(5))
+
+// function addone(num){
+//     return num + 1
+// }
+
+
+// addTwo(5)
+// const addTwo = function(num){
+//     return num + 2
+// }
+
