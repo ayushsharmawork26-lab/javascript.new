@@ -85,3 +85,38 @@
 
 // output: 1> Ayush
 //         2> ReferenceError: username is not defined
+
+// Q7. Create a global variable x = 100. Inside a function create a local variable y = 200. Print both variables inside the function ?
+// Solve:=>
+//     let x = 100;
+
+//    function test() {
+//     let y = 200;
+
+//     console.log(x);
+//     console.log(y);
+//    }
+
+//    test();
+
+// Output: 1> 100
+//         2> 200
+
+//  Q8. Create a function calculate() with local variables:
+    // let a = 10;
+    // let b = 20;
+// Return their sum and print the result outside the function.
+// Solve=>
+    // function calculate() {
+    //     let a = 10;
+    //     let b = 20;
+
+    //     return a + b;
+    // }
+
+    // let result = calculate();
+
+    // console.log(result);
+
+// output: 1> 30
+
