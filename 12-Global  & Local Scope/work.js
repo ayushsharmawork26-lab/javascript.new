@@ -51,3 +51,37 @@
     // showMessage();
 
 // output: 1> Hello JavaScript
+
+// Q5. Create a global variable count = 10. Create a function that changes its value to 20. Print count before and after calling the function ?
+// Solve:=>
+    // let count = 10;
+    
+    // function changeCount() {
+    //     count = 20;
+    // }
+
+    // console.log(count);
+
+    // changeCount();
+
+    // console.log(count);
+
+// output: 1> 10
+//         2> 20
+
+// Q6. Create an if block using let:
+//  if (true) {
+    // let username = "Ayush";
+// }
+// > Try to access username outside the block. What happens?
+
+// Solve:=>
+    // if (true) {
+    //     let username = "Ayush";
+    //     console.log(username);
+    // }
+
+    // console.log(username);
+
+// output: 1> Ayush
+//         2> ReferenceError: username is not defined
