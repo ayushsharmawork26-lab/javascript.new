@@ -146,3 +146,17 @@
 
 // output: 1> Rahul
 //         2> Ayush
+
+// JavaScript Scope Level — 10 Practice Questions:
+// Q1. Global Scope
+// Create a global variable name = "Ayush" and print it inside a function.
+// Solve:=
+      let name = "Ayush";
+
+function showName() {
+    console.log(name);
+}
+
+showName();
+
+// output: 1> Ayush
