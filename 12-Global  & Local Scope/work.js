@@ -147,7 +147,12 @@
 // output: 1> Rahul
 //         2> Ayush
 
+
+
+
 // JavaScript Scope Level — 10 Practice Questions:
+
+
 // Q1. Global Scope
 // Create a global variable name = "Ayush" and print it inside a function.
 // Solve:=
@@ -273,3 +278,33 @@
 // Output: 1> Global
 //         2> Outer
 //         3> Inner
+
+// Q9. Shadowing
+// Create a global variable:
+// let message = "Global";
+// Then create another message inside a function and print both values from their respective scopes ?
+// Solve:=>
+    // let message = "Global";
+
+    // function test() {
+    //     let message = "Local";
+
+    //     console.log(message);
+    // }
+
+    // test();
+
+    // console.log(message);
+// Output: 1> Local
+//         2> Global
+
+// Q10. Scope Error
+// What will happen here?
+// Solve:=>
+    // function user() {
+    //     let name = "Ayush";
+    // }
+
+    // console.log(name);
+
+// Output: 1> ReferenceError: name is not defined
