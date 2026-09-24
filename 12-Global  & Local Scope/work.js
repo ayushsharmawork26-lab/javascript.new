@@ -202,3 +202,30 @@
 
 // Q5. let vs var
 // Write a program that demonstrates the difference between let and var when used inside a block { }.
+// Solve:=>
+    // if (true) {
+    //     let a = 10;
+    //     var b = 20;
+    // }
+
+    // console.log(b);
+    // console.log(a);
+
+// Output: 1> 20
+//         2> ReferenceError: a is not defined
+
+
+// Q6. Function Scope ?
+// Solve:=>
+//     let city = "Chandigarh"
+    
+//   function test() {
+//     let city = "Delhi";
+//     console.log(city);
+//   }
+
+//   test();
+//   console.log(city);
+
+// Output: 1> Delhi
+//         2> Chandigarh
