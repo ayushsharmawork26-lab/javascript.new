@@ -188,3 +188,17 @@
 
 // Output:=> 1> 23
 //           2> ReferenceError: age is not defined
+
+// Q4. var Scope
+// Create a variable using var inside an if block and print it outside the block. What is the output?
+// Solve:=>
+    // if (true) {
+    //     var age = 23;
+    // }
+
+    // console.log(age);
+
+// Output: 1> 23
+
+// Q5. let vs var
+// Write a program that demonstrates the difference between let and var when used inside a block { }.
