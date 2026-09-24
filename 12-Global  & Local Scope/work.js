@@ -151,12 +151,40 @@
 // Q1. Global Scope
 // Create a global variable name = "Ayush" and print it inside a function.
 // Solve:=
-      let name = "Ayush";
+//       let name = "Ayush";
 
-function showName() {
-    console.log(name);
-}
+// function showName() {
+//     console.log(name);
+// }
 
-showName();
+// showName();
 
 // output: 1> Ayush
+
+// Q2. Local Scope
+// Create a variable age = 23 inside a function and try to print it outside the function. What happens?
+// Solve:=>
+    // function user() {
+    //     let age = 23;
+    //     console.log(age);
+    // }
+
+    // user();
+
+    // console.log(age);
+
+// Output: 1> 23
+//         2> ReferenceError: age is not defined
+
+// Q3. Block Scope
+// Create a variable using let inside an if block and try to access it outside the block.
+// Solve:=>
+    // if (true) {
+    //     let age = 23;
+    //     console.log(age);
+    // }
+
+    // console.log(age);
+
+// Output:=> 1> 23
+//           2> ReferenceError: age is not defined
