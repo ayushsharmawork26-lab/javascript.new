@@ -229,3 +229,47 @@
 
 // Output: 1> Delhi
 //         2> Chandigarh
+
+// Q7. Nested Scope
+// Create an outer function containing a variable username, and an inner function that prints username.
+// Solve:=>
+    // function outer(){
+    //     let username = "Ayush";
+
+    //     function inner() {
+    //         console.log(username);
+    //     }
+
+    //     inner();
+    // }
+
+    // outer();
+// output: 1> Ayush
+
+// Q8. Scope Chain
+// > Write a program with:
+// > one global variable
+// > one variable inside an outer function
+// > one variable inside an inner function
+// Solve:=>
+    // let globalName = "Global";
+
+    // function outer() {
+    //     let outerName = "Outer";
+
+    //     function inner() {
+    //         let innerName = "Inner";
+
+    //         console.log(globalName);
+    //         console.log(outerName);
+    //         console.log(innerName);
+    //     }
+
+    //     inner();
+    // }
+
+    // outer();
+
+// Output: 1> Global
+//         2> Outer
+//         3> Inner
