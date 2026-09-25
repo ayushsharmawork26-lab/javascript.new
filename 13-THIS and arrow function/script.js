@@ -20,3 +20,15 @@ const user = {
 // }
 
 // one()
+
+// const one = function () {
+//     let username = "Ayush"
+//     console.log(this.username);
+// }
+
+const one =  () => {
+    let username = "Ayush"
+    console.log(this);
+}
+
+// one()
