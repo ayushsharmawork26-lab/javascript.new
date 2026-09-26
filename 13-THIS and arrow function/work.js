@@ -73,3 +73,31 @@
     // console.log(greater(25, 15));
 
 // output: 1> 25
+
+// Q7. Array Sum
+// Create an arrow function sumArray that takes an array of numbers and returns the total sum.
+// Solve:=>
+    // const sumArray = (arr) => {
+    //     let sum = 0;
+
+    //     for (let num of arr) {
+    //         sum += num;
+    //     }
+
+    //     return sum;
+    // };
+
+    // console.log(sumArray([10, 20, 30, 40]));
+
+// Output: 1> 100
+
+// Q8. Convert to Uppercase
+// Create an arrow function toUpper that takes a string and converts it to uppercase.
+// Solve:=>
+    // const toUpper = (str) => {
+    //     return str.toUpperCase();
+    // };
+
+    // console.log(toUpper("ayush"));
+
+// output: 1> AYUSH
