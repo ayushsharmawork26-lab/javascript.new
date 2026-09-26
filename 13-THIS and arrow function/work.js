@@ -101,3 +101,34 @@
     // console.log(toUpper("ayush"));
 
 // output: 1> AYUSH
+
+// Q9. Filter Numbers
+// Create an arrow function getGreaterThan10 that takes an array and returns only numbers greater than 10.
+// Solve:=>
+    // const getGreaterThan10 = (arr) => {
+    //     return arr.filter((num) => num > 10);
+    // };
+
+    // console.log(getGreaterThan10([5, 12, 8, 20, 15]));
+
+// output: 1> [12, 20, 15]
+
+// Q10. Object with Arrow Function
+// > Create an object user with:
+// > name: "Ayush"
+// > age: 23
+// > an arrow function greet that returns "Hello Ayush".
+// > Then call the function using:
+// Solve:=>
+//     const user = {
+//         name: "Ayush",
+//         age: 23,
+
+//         greet: () => {
+//             return "Hello Ayush";
+//         }
+//     };
+    
+//     console.log(user.greet());
+
+// // Output: Hello Ayush
