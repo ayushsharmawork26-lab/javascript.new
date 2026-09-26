@@ -47,3 +47,29 @@
     // console.log(checkEven(7));
 
 // Output: 1> Odd
+
+// Q5. Multiply
+// Create an arrow function multiply that takes two parameters and returns their multiplication.
+// Solve:=>
+    // const multiply = (a, b) => {
+    //     return a * b;
+    // };
+
+    // console.log(multiply(5, 4));
+
+// output:  1> 20
+
+// Q6. Find Greater Number
+// Create an arrow function greater that takes two numbers and returns the greater number.
+// Solve:=>
+    // const greater = (a, b) => {
+    //     if (a > b) {
+    //         return a;
+    //     } else {
+    //         return b;
+    //     }
+    // };
+
+    // console.log(greater(25, 15));
+
+// output: 1> 25
