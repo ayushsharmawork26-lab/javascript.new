@@ -54,4 +54,8 @@
 
 (function ayush(){
     console.log(`DB CONNECTED`);
-})()
+})();
+
+( (name) => {
+    console.log(`DB CONNECTION TWO ${name}`);
+} ) ('Ayush')
