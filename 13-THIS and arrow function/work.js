@@ -156,3 +156,21 @@
 // })();
 
 // Output: 1> 30
+
+// Q3. Parameter IIFE
+// Ek IIFE banao jo name = "Ayush" parameter receive kare aur "Hello Ayush" print kare.
+// Solve:=>
+// (function (name) {
+//     console.log("Hello " + name);
+// })("Ayush");
+
+// Output: 1> Hello Ayush
+
+// Q4. Two Parameters
+// Ek IIFE banao jo a = 10 aur b = 20 receive kare aur unka sum print kare.
+// Solve:=>
+// (function (a, b) {
+//     console.log(a + b);
+// })(10, 20);
+
+// Output: 1> 30
