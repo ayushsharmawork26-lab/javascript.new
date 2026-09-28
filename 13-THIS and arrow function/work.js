@@ -195,4 +195,25 @@
 //     console.log(password);
 // })();
 
-// Output: 1> 12345
+// Output: 1> 12345 
+
+// Q7. Arrow Function IIFE
+// Ek arrow function IIFE banao jo "Arrow IIFE" print kare.
+// Solve:=>
+// (() => {
+//     console.log("Arrow IIFE");
+// })();
+
+// Output: 1> Arrow IIFE
+
+// Q8. Even/Odd
+// IIFE ko num = 15 pass karo aur check karo ki number even hai ya odd.
+// Solve:=>
+// (function (num) {
+//     if (num % 2 === 0) {
+//         console.log("Even");
+//     } else {
+//         console.log("Odd");
+//     }
+// })(15);
+// output: Odd
