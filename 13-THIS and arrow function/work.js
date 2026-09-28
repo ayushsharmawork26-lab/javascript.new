@@ -217,3 +217,35 @@
 //     }
 // })(15);
 // output: Odd
+
+// Q9. Counter
+// IIFE ke andar let count = 0 banao, count ko 1 se increase karo aur result print karo.
+// Solve:=>
+// (function () {
+//     let count = 0;
+
+//     count++;
+//     console.log(count);
+// })();
+
+// Output: 1> 1
+
+// Q10. Multiplication Table
+// IIFE banao jo 5 ko parameter ke roop mein receive kare aur uski 1 se 10 tak multiplication table print kare.
+// Solve:=>
+// (function (num) {
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(`${num} x ${i} = ${num * i} `);
+//     }
+
+// })(5);
+// output: 1> 5 x 1 = 5
+//         2> 5 x 2 = 10
+//         3> 5 x 3 = 15
+//         4> 5 x 4 = 20
+//         5> 5 x 5 = 25
+//         6> 5 x 6 = 30
+//         7> 5 x 7 = 35
+//         8> 5 x 8 = 40
+//         9> 5 x 9 = 45
+//        10> 5 x 10 = 50
