@@ -174,3 +174,25 @@
 // })(10, 20);
 
 // Output: 1> 30
+
+// Q5. Return Value
+// Ek IIFE banao jo 5 * 5 calculate kare aur returned value ko ek variable result mein store karo.
+// Solve:=>
+    // const result = (function () {
+    //     return 5 * 5;
+    // })();
+
+    // console.log(result);
+
+// Output: 1> 25
+
+// Q6. Private Variable
+// IIFE ke andar let password = "12345" banao aur password ko print karo.
+// Try: IIFE ke bahar password access karne par kya hoga?
+// Solve:=>
+// (function () {
+//     let password = "12345";
+//     console.log(password);
+// })();
+
+// Output: 1> 12345
