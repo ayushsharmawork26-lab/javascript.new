@@ -133,3 +133,26 @@
 
 // // Output: Hello Ayush
 
+
+
+// // JavaScript IIFE — 10 Practice Questions
+// IIFE = Immediately Invoked Function Expression
+// Function jo define hote hi immediately execute ho jata hai.
+
+// Q1. Basic IIFE
+// Ek IIFE banao jo "Hello JavaScript" print kare.
+// Solve:=>
+// (function () {
+//     console.log("Hello Ayush");
+// })();
+
+// Output: 1> Hello Ayush
+
+// Q2. Number with IIFE
+// Ek IIFE banao jo 10 + 20 calculate karke result print kare.
+// Solve:=>
+// (function () {
+//     console.log(10 + 20);
+// })();
+
+// Output: 1> 30

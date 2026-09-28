@@ -52,10 +52,10 @@
 
 // Immediately Invoked Function Expression (IIFE)
 
-(function ayush(){
-    console.log(`DB CONNECTED`);
-})();
+// (function ayush(){
+//     console.log(`DB CONNECTED`);
+// })();
 
-( (name) => {
-    console.log(`DB CONNECTION TWO ${name}`);
-} ) ('Ayush')
+// ( (name) => {
+//     console.log(`DB CONNECTION TWO ${name}`);
+// } ) ('Ayush')
