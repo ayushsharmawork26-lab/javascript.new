@@ -97,3 +97,62 @@
 // add() returns 30
 //     ↓
 // calculate() finishes
+
+// Q5. Nested Function Calls
+// Create:
+// function A() {}
+// function B() {}
+// function C() {}
+// function A() {
+//     console.log("A started");
+//     B();
+// }
+
+// function B() {
+//     console.log("B started");
+//     C();
+// }
+
+// function C() {
+//     console.log("C started");
+// }
+
+// A();
+
+// Output: 1> A started
+//         2> B started
+//         3> C started
+
+// Stack:
+// A()
+//  ↓
+// B()
+//  ↓
+// C()
+//  ↓
+// C() finishes
+//  ↓
+// B() finishes
+//  ↓
+// A() finishes
+
+// Q6. Call Stack Order
+// What will be the output?
+//    Solve:=>
+//     function first() {
+//         console.log("1");
+//         second();
+//         console.log("2");
+//     }
+
+//     function second() {
+//         console.log("3");
+//     }
+
+//     first();
+
+// Output: 1> 1
+//         2> 3
+//         3> 2
+// Why?
+// first() starts → prints 1 → calls second() → prints 3 → second() finishes → back to first() → prints 2.
