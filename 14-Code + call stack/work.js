@@ -233,3 +233,73 @@
 // First enters: result()
 // Then: multiply()
 // First to leave: multiply()
+
+// Q9. Call Stack Error
+// Solve:=>
+    // function test() {
+    //     test();
+    // }
+
+    // test();
+
+// Output: 1> Uncaught RangeError: Maximum call stack size exceeded
+
+// test() continuously calls itself:
+
+// test()
+//  ↓
+// test()
+//  ↓
+// test()
+//  ↓
+// test()
+//  ↓
+// ...
+
+// Q10. Challenge — Trace the Call Stack
+// Solve:=>
+//     function one() {
+//     console.log("One");
+//     two();
+//     console.log("One End");
+// }
+
+// function two() {
+//     console.log("Two");
+//     three();
+//     console.log("Two End");
+// }
+
+// function three() {
+//     console.log("Three");
+// }
+
+// one();
+
+// Output: 1> One
+//         2> Two
+//         3> Three
+//         4> Two End
+//         5> One End
+
+// Call Stack:
+
+// one()
+//  ↓
+// two()
+//  ↓
+// three()
+//  ↓
+// three() finishes
+//  ↓
+// two() continues
+//  ↓
+// prints "Two End"
+//  ↓
+// two() finishes
+//  ↓
+// one() continues
+//  ↓
+// prints "One End"
+//  ↓
+// one() finishes
