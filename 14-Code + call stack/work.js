@@ -38,3 +38,62 @@
 // second() finishes
 //   ↓
 // first() finishes
+
+// Q3. Three-Level Call Stack
+// Create:
+// function one() {}
+// function two() {}
+// function three() {}
+// Make one() call two(), and two() call three(). Print a message from each function.
+// Solve:=>
+    // function one() {
+    //     console.log("One");
+    //     two();
+    // }
+
+    // function two() {
+    //     console.log("Two");
+    //     three();
+    // }
+
+    // function three() {
+    //     console.log("Three");
+    // }
+
+    // one();
+
+// Output: 1> One
+//         2> Two
+//         3> Three
+
+// Call Stack:
+// one()
+// one() → two()
+// two() → three()
+// three() finishes
+// two() finishes
+// one() finishes
+
+// Q4. Return from Call Stack
+// Create a function add(a, b) that returns the sum. Call it from another function calculate().
+// Solve:=>
+    // function add(a, b) {
+    //     return a + b;
+    // }
+
+    // function calculate() {
+    //     console.log(add(10, 20));
+    // }
+
+    // calculate();
+
+// Output: 1> 30
+
+// Call Stack:
+// calculate()
+//     ↓
+// add()
+//     ↓
+// add() returns 30
+//     ↓
+// calculate() finishes
