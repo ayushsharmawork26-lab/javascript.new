@@ -156,3 +156,80 @@
 //         3> 2
 // Why?
 // first() starts → prints 1 → calls second() → prints 3 → second() finishes → back to first() → prints 2.
+
+// Q7. Four Functions
+// Create four functions:
+// start() → login() → dashboard() → logout()
+// Print a message inside each function and observe the order.
+// Solve:=>
+    // function start() {
+    //     console.log("Start");
+    //     login();
+    // }
+
+    // function login() {
+    //     console.log("Login");
+    //     dashboard();
+    // }
+
+    // function dashboard() {
+    //     console.log("Dashborad");
+    //     logout();
+    // }
+
+    // function logout() {
+    //     console.log("Logout");
+    // }
+
+    // start();
+
+// Output: 1> Start
+//         2> Login
+//         3> Dashboard
+//         4> Logout
+
+// Call Stack:
+// start()
+//  ↓
+// login()
+//  ↓
+// dashboard()
+//  ↓
+// logout()
+//  ↓
+// logout finishes
+//  ↓
+// dashboard finishes
+//  ↓
+// login finishes
+//  ↓
+// start finishes
+
+// Q8. Function with Return
+// Solve:=>
+    // function multiply(a, b) {
+    //     return a * b;
+    // }
+
+    // function result() {
+    //     console.log(multiply(5, 4));
+    // }
+
+    // result();
+
+// Output: 1> 20
+
+// Call Stack:
+// result()
+//    ↓
+// multiply()
+//    ↓
+// return 20
+//    ↓
+// result()
+//    ↓
+// result finishes
+
+// First enters: result()
+// Then: multiply()
+// First to leave: multiply()
