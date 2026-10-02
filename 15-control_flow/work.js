@@ -25,3 +25,35 @@
     // }
 
 // Output: Odd
+
+// Q3. else if
+// Create a variable marks = 75.
+// Solve:=>
+    // let marks = 75;
+   
+    // if (marks >= 90 && marks <= 100) {
+    //     console.log("Grade A");
+    // } else if (marks >= 75) {
+    //     console.log("Grade B");
+    // } else if (marks >= 60) {
+    //     console.log("Grade C");
+    // } else if (marks >= 40) {
+    //     console.log("Grade D");
+    // } else {
+    //     console.log("Fail");
+    // }
+
+// Output: 1> Grade B
+
+// Q4. Logical Operators
+// Solve:=>
+    // let age = 25;
+    // let hasLicense = true;
+
+    // if (age >= 18 && hasLicense === true) {
+    //     console.log("You can drive a car");
+    // } else {
+    //     console.log("You cannot drive a car");
+    // }
+
+// Output: 1> You can drive a car
