@@ -57,3 +57,53 @@
     // }
 
 // Output: 1> You can drive a car
+
+// Q5. Nested if
+// Solve:=>
+    // let username = "Ayush";
+    // let password = "12345";
+
+    // if (username === "Ayush") {
+    //     if (password === "12345") {
+    //         console.log("Login successful");
+    //     } else {
+    //         console.log("Wrong password");
+    //     }
+    // } else {
+    //     console.log("Wrong username");
+    // }
+
+// Output: 1> Login successful
+
+//  Q6. switch
+// Solve:=>
+//     let day = 3;
+
+//     switch (day) {
+//         case 1:
+//           console.log("Monday");
+//           break;
+//         case 2:
+//           console.log("Tuesday");
+//           break;
+//         case 3:
+//           console.log("Wednesday");
+//           break;
+//         case 4:
+//           console.log("Thursday");
+//           break;
+//         case 5:
+//           console.log("Friday");
+//           break;
+//         case 6:
+//           console.log("Saturday");
+//           break;
+//         case 7:
+//           console.log("Sunday");
+//           break;
+
+//          default:
+//         console.log("Invalid day");
+//     }
+
+// // Output: 1> Wednesday
