@@ -59,26 +59,51 @@
 //         break;
 // 
 
-const month = "march"
+// const month = "march"
 
-switch (month) {
-    case "jan":
-        console.log("January");
-        break;
+// switch (month) {
+//     case "jan":
+//         console.log("January");
+//         break;
 
-    case "feb":
-        console.log("February");
-        break;
+//     case "feb":
+//         console.log("February");
+//         break;
 
-    case "march":
-        console.log("March");
-        break;
+//     case "march":
+//         console.log("March");
+//         break;
 
-    case "april":
-        console.log("April");
-        break;
+//     case "april":
+//         console.log("April");
+//         break;
 
-    default:
-        console.log("default case match");
-        break;
+//     default:
+//         console.log("default case match");
+//         break;
+// }
+
+
+const userEmail = "ayush@gmail.com"
+
+if (userEmail) {
+    console.log("Got user email");
+} else {
+    console.log("Don't have user email");
+}
+
+// falsy value
+// false, 0, -0, BigInt 0n, "", null, undefined, NaN
+
+// truthy values
+// "0", 'fasle', " ", [], {}, function(){}
+
+// if (userEmail.length ===0) {
+//     console.log("Array is empty");
+// }
+
+const emptyObj = {}
+
+if (Object.keys(emptyObj).length === 0) {
+    console.log("Object is empty");
 }
