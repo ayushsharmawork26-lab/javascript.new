@@ -126,3 +126,31 @@
 
 // Output: 1> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
+// Q9. while Loop ?
+// Solve:=>
+    // let i = 2;
+    
+    // while (i <= 20) {
+    //     console.log(i);
+    //     i += 2;
+    // }
+
+// Output: 1> 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+
+// Q10. Hard — Login + Conditions?
+// Solve:=>
+//     let username = "Ayush";
+//     let password = "12345";
+//     let isVerified = true;
+
+//     if (username !== "Ayush") {
+//         console.log("Invalid username");
+//     } else if (password !== "12345") {
+//         console.log("Invalid password");
+//     } else if (isVerified === false) {
+//         console.log("Account not verified");
+//     } else {
+//         console.log("Login successful");
+//     }
+
+ // Output: 1> Login successful
