@@ -107,3 +107,22 @@
 //     }
 
 // // Output: 1> Wednesday
+
+//  Q7. Ternary Operator ?
+// Solve:=>
+    // let age = 20;
+   
+    // let result = age >= 18 ? "Adult" : "Minor";
+
+    // console.log(result);
+
+// Output: 1> Adult
+
+// Q8. for Loop ?
+// Solve:=>
+    // for (let i = 1; i <= 10; i++) {
+    //     console.log(i);
+    // }
+
+// Output: 1> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
