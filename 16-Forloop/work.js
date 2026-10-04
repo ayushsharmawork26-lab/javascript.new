@@ -93,3 +93,31 @@
 //    console.log(count);
 
 // Output: 1> 25
+
+// Q9. Factorial
+// Solve:=>
+//     let num = 5;
+// let factorial = 1;
+
+// for (let i = 1; i <= num; i++) {
+//     factorial = factorial * i;
+// }
+
+// console.log(factorial);
+// Output: 1> 120
+
+// Q10. Find Largest Number
+// Solve:=>
+//     let numbers = [10, 25, 7, 45, 32, 18];
+
+// let largest = numbers[0];
+
+// for (let i = 1; i < numbers.length; i++) {
+//     if (numbers[i] > largest) {
+//         largest = numbers[i];
+//     }
+// }
+
+// console.log(largest);
+
+// Output: 1> 45
