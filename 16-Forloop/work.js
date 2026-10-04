@@ -64,3 +64,32 @@
 //    }
 
 // Output: 1> 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 
+
+// Q7. Array with for Loop
+// Solve:=>
+    // let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+
+    // for (let i = 0; i < fruits.length; i++) {
+    //     console.log(fruits[i]);
+    // }
+
+// Output: 1> Apple
+//         2> Banana
+//         3> Mango
+//         4> Orange
+//         5> Grapes
+
+// Q8. Count Even Numbers
+// Use a for loop to count how many even numbers are present between 1 and 50.
+// Solve:=>
+//     let count = 0;
+
+//    for (let i = 1; i <= 50; i++) {
+//     if (i % 2 === 0) {
+//         count++;
+//     }
+//    }
+
+//    console.log(count);
+
+// Output: 1> 25
