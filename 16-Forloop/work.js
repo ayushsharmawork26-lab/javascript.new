@@ -40,3 +40,27 @@
 //    }
 
 // Output: 1> 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+
+// Q5. Sum of Numbers
+// Use a for loop to calculate the sum of numbers 1 to 10.
+// Solve:=>
+//     let sum = 0;
+
+// for (let i = 1; i <= 10; i++) {
+//     sum = sum + i;
+// }
+
+// console.log(sum);
+
+// Output: 1> 55
+
+// Q6. Multiplication Table
+// Create a variable:
+// Solve:=>
+//     let num = 5;
+
+//    for (let i = 1; i <= 10; i++ ) {
+//     console.log(num * i);
+//    }
+
+// Output: 1> 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 
