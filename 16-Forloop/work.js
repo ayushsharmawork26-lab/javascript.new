@@ -238,3 +238,36 @@
 // console.log(sum);
 
 // output: 1> 210
+
+
+// Q9. Create num = 7 and print its multiplication table (7 × 1 to 7 × 10) using do...while.
+// Solve:=>
+//     let num = 7;
+// let i = 1;
+
+// do {
+//     console.log(`${num} x ${i} = ${num * i}`);
+//     i++;
+// } while (i <= 10);
+
+// Output: 1> 7 x 1 = 7
+//            7 x 2 = 14
+//            7 x 3 = 21
+//            7 x 4 = 28
+//            7 x 5 = 35
+//            7 x 6 = 42
+//            7 x 7 = 49
+//            7 x 8 = 56
+//            7 x 9 = 63
+//            7 x 10 = 70
+
+// Q10. What will be the output?
+// Solve:=>
+//     let i = 10;
+
+// do {
+//     console.log(i);
+//     i++;
+// } while (i < 5);
+
+// Output: 1> 10
