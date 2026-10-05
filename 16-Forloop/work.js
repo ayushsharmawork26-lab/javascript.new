@@ -121,3 +121,30 @@
 // console.log(largest);
 
 // Output: 1> 45
+
+
+
+// --------------------------(while & do...while)--------------->
+
+// JavaScript while & do...while — 10 Practice Questions
+// Q1. Print numbers from 1 to 10 using a while loop.
+// Solve:=>
+    // let i = 1;
+    
+    // while (i <= 10) {
+    //     console.log(i);
+    //     i++;
+    // }
+
+// Output: 1, 2, 3, 4, 5, 6, 7, 8,  9, 10
+
+// Q2. Print numbers from 10 to 1 using a while loop.
+// Solve:=>
+    // let i = 10;
+ 
+    // while (i >= 1) {
+    //     console.log(i);
+    //     i--;
+    // }
+
+// Output: 1> 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
