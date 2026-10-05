@@ -148,3 +148,30 @@
     // }
 
 // Output: 1> 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+
+// Q3. Print all even numbers from 1 to 20 using a while loop.
+// Solve=>
+    // let i = 1;
+  
+    // while (i <= 20) {
+    //     if (i % 2 === 0) {
+    //         console.log(i);
+    //     }
+    //     i++;
+    // }
+
+// Output: 2 4 6 8 10 12 14 16 18 20
+
+// Q4. Calculate the sum of numbers from 1 to 10 using a while loop.
+// Solve:=>
+    // let i = 1;
+    // let sum = 0;
+
+    // while (i <= 10) {
+    //     sum = sum + i;
+    //     i++;
+    // }
+
+    // console.log(sum);
+
+// Output: 1> 55
