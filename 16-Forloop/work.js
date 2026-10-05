@@ -210,3 +210,31 @@
 // Output: 1> 
 
 // Output: 1 2 3 4 5 6 7 8 9 10
+
+
+// Q7. Print all odd numbers from 1 to 20 using a do...while loop.
+// Solve:=>
+    // let i = 1;
+   
+    // do {
+    //     if (i % 2 !== 0) {
+    //         console.log(i);
+    //     }
+    //     i++;
+    // }while (i <= 20);
+
+// Output: 1 3 5 7 9 11 13 15 17 19
+
+// Q8. Calculate the sum of numbers from 1 to 20 using a do...while loop.
+// Solve:=>
+//     let i = 1;
+// let sum = 0;
+
+// do {
+//     sum = sum + i;
+//     i++;
+// } while (i <= 20);
+
+// console.log(sum);
+
+// output: 1> 210
