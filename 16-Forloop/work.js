@@ -175,3 +175,38 @@
     // console.log(sum);
 
 // Output: 1> 55
+
+// Q5. Create a variable num = 5 and print its multiplication table using a while loop.
+// Solve:=>
+    // let num = 5;
+    // let i = 1;
+
+    // while (i <= 10) {
+    //     console.log(`${num} x ${i} = ${num * i}`);
+    //     i++;
+    // }
+
+// Output: 1> 5 x 1 = 5
+//         2> 5 x 2 = 10
+//         3> 5 x 3 = 15
+//         4> 5 x 4 = 20
+//         5> 5 x 5 = 25
+//         6> 5 x 6 = 30
+//         7> 5 x 7 = 35
+//         8> 5 x 8 = 40
+//         9> 5 x 9 = 45
+//        10> 5 x 10 = 50
+
+
+// Q6. Print numbers from 1 to 10 using a do...while loop.
+// Solve:=>
+//     let i = 1;
+
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 10);
+
+// Output: 1> 
+
+// Output: 1 2 3 4 5 6 7 8 9 10
