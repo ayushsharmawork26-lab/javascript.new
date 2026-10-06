@@ -80,7 +80,29 @@
 //      console.log(num);
 // }
 
-const greeting = "Hello word!"
-for (const greet of greeting){
-    console.log(`Each char is ${greet} `)
+// const greeting = "Hello word!"
+// for (const greet of greeting){
+//     console.log(`Each char is ${greet} `)
+// }
+
+// Maps
+
+const map  = new Map()
+map.set('IN', "India")
+map.set('USA', "United states of America")
+map.set('Fr', "France")
+
+// console.log(map);
+
+for (const [key, value] of map){
+    console.log(key, ':-', value);
+// }
+
+const myObject = {
+    'game1': 'NFS',
+    'game2':  'Spiderman'
 }
+
+// for (const [key, value] of Object) {
+//     console.log(key, ':-', value);
+// }
