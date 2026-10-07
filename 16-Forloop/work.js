@@ -345,3 +345,29 @@
     // console.log(sum);
 
 // Output: > 150
+
+
+// Q7. Numbers Greater Than 50
+// Solve:=>
+    // const number = [25, 65, 45, 80, 90, 35];
+
+    // number.forEach(function (num){
+    //     if (num > 50){
+    //         console.log(num);
+    //     }
+    // });
+
+// Output: 1> 65
+//         2> 80
+//         3> 90
+
+// Q8. Print Array With Index
+// Solve:=>
+    // const fruits = ["Apple", "Banana", "Mango"];
+    // fruits.forEach(function (fruits, index){
+    //     console.log(index, fruits);
+    // });
+
+// output: 1> 0 Apple
+//         2> 1 Banana
+//         3> 2 Mango
