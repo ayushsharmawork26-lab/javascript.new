@@ -275,6 +275,7 @@
 
 
 // ----------------(JavaScript forEach() — 10 Practice Tasks)--------->
+
 // Q1. Print Array Values
 // Solve:=>
     // const fruits = ["Apple", "Banana", "Mango", "Orange"];
@@ -293,3 +294,24 @@
     // });
 
 // Output: 1> 10, 20, 30, 40, 50
+
+// Q3. Double Each Number
+// Solve:=>
+    // const numbers = [1, 2, 3, 4, 5];
+    // numbers.forEach(function (num){
+    //     console.log(num * 2)
+    // });
+
+// Output: 1> 2, 4, 6, 8, 10
+
+// Q4. Check Even Numbers
+// Solve:=>
+//     const numbers = [11, 20, 35, 42, 55, 60];
+
+//   numbers.forEach(function (num) {
+//     if (num % 2 == 0) {
+//         console.log(num);
+//     }
+//   });
+
+// Output: 1> 20, 42, 60
