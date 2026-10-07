@@ -271,3 +271,25 @@
 // } while (i < 5);
 
 // Output: 1> 10
+
+
+
+// ----------------(JavaScript forEach() — 10 Practice Tasks)--------->
+// Q1. Print Array Values
+// Solve:=>
+    // const fruits = ["Apple", "Banana", "Mango", "Orange"];
+    // fruits.forEach (function (fruits){
+    //     console.log(fruits);
+    // });
+
+// Output: 1> Apple, Banana, mango, orange
+
+
+// Q2. Print Numbers
+// Solve:=>
+    // const numbers = [10, 20, 30, 40, 50];
+    // numbers.forEach(function (num){
+    //     console.log(num)
+    // });
+
+// Output: 1> 10, 20, 30, 40, 50

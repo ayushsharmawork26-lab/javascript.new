@@ -138,7 +138,7 @@
 
 // ------------------- For Each loops--------------->
 
-const coding = ["js", "ruby", "java", "python", "cpp"]
+// const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach(  function (val) {
 //     console.log(val);
@@ -159,23 +159,23 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 // })
 
 
-const myCoding = [
-    {
-        languageName: "javascript",
-        languageFileName: "js"
-    },
-    {
-        languageName: "java",
-        languageFileName: "js"
-    },
-    {
-        languageName: "python",
-        languageFileName: "py"
-    }
-]
+// const myCoding = [
+//     {
+//         languageName: "javascript",
+//         languageFileName: "js"
+//     },
+//     {
+//         languageName: "java",
+//         languageFileName: "js"
+//     },
+//     {
+//         languageName: "python",
+//         languageFileName: "py"
+//     }
+// ]
 
-myCoding.forEach( (item)=> {
-    console.log(item.languageName);
-})
+// myCoding.forEach( (item)=> {
+//     console.log(item.languageName);
+// })
 
 
