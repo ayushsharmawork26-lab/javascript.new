@@ -315,3 +315,33 @@
 //   });
 
 // Output: 1> 20, 42, 60
+
+// Q5. Print Object Values.
+// Solve:=>
+    // const user = {
+    //     name: "Ayush",
+    //     age: 23,
+    //     city: "chandigarh"
+    // };
+
+    // Object.entries(user).forEach(function ([key, value]){
+    //     console.log(key, value);
+    // });
+
+// Output: 1> name: Ayush   
+//         2> age : 23
+//         3> city: Chandighar
+
+// Q6. Add All Numbers
+// Solve:=>
+    // const number = [10, 20, 30, 40, 50];
+   
+    // let sum = 0;
+
+    // number.forEach(function (num) {
+    //     sum = sum + num;
+    // });
+
+    // console.log(sum);
+
+// Output: > 150
