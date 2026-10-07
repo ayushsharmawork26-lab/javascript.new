@@ -371,3 +371,35 @@
 // output: 1> 0 Apple
 //         2> 1 Banana
 //         3> 2 Mango
+
+// Q9. Calculate Total Price
+// Solve:=>
+//     const Prices = [100, 250, 300, 150];
+    
+//    let total = 0;
+
+//    Prices.forEach(function (Price){
+//     total = total + Price;
+//    });
+
+//    console.log(total);
+
+// Output: 800
+
+// Q10. Users Age 18+
+// Solve:=>
+    // const users = [
+    //     { name: "Ayush", age: 23},
+    //     {name:  "Rahul", age: 17},
+    //     {name: "Aman",  age: 25},
+    //     { name: "Rohit", age: 16}
+    // ];
+
+    // users.forEach(function (user){
+    //     if (user.age >= 18){
+    //         console.log(user.name, "-", user.age);
+    //     }
+    // });
+
+// Output: 1> Ayush - 23
+//         2> Aman - 25
