@@ -80,3 +80,34 @@
     // console.log(result);
 
 // Output: 1> ["Ayush", "Aman", "Ankit"]
+
+// Q9. Filter Expensive Books
+// Solve:=>
+    // const books = [
+    //     { title: "JavaScript", price: 400 },
+    //     { title: "React", price: 700 },
+    //     { title: "Python", price: 300 },
+    //     { title: "Node.js", price: 600 }
+ 
+    // ];
+
+    // const result = books.filter((book) => book.price > 500);
+
+    // console.log(result);
+
+// Output: 1> [
+    // { title: "React", price: 700 },
+    // { title: "Node.js", price: 600 }
+// ]
+
+// Q10. Filter and Double Numbers
+// Solve:=>
+    // const Numbers = [5, 10, 15, 20, 25, 30];
+  
+    //  const result = Numbers
+    //        .filter((num) => num > 10)
+    //        .map((num) => num * 2);
+
+    // console.log(result);
+
+// Output: 1> [30, 40, 50, 60]
