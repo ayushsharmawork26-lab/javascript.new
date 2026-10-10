@@ -39,3 +39,26 @@
     // console.log(result);
 
 // Output: 1> [15, 20, 25, 30]
+
+// Q5. Extract Book Names
+// Solve:=>
+    // const books = [
+    //     {title: "javascript", price: 500},
+    //     {title: "python", price: 400},
+    //     {title: "React", price: 600}
+    // ];
+
+    // const result = books.map((book) => book.title);
+
+    // console.log(result);
+
+// Output: 1> ['javascript', 'python', 'React']
+
+// Q6. Filter Even Numbers
+// Solve:=>
+    // const Numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+    // const result = Numbers.filter((num) => num % 2 === 0);
+
+    // console.log(result);
+
+// Output: 1> [2, 4, 6, 8]
