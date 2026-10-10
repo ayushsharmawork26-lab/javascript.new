@@ -111,25 +111,25 @@
 
 // console.log(myTotal);
 
-const shopingcart = [
-    {
-        itemName: "js course",
-        price: 2999
-    },
-    {
-        itemName: "py course",
-        price: 999
-    },
-    {
-        itemName: "mobile dev course",
-        price: 5999
-    },
-    {
-        itemName: "data scice course",
-        price: 12999
-    },
-]
+// const shopingcart = [
+//     {
+//         itemName: "js course",
+//         price: 2999
+//     },
+//     {
+//         itemName: "py course",
+//         price: 999
+//     },
+//     {
+//         itemName: "mobile dev course",
+//         price: 5999
+//     },
+//     {
+//         itemName: "data scice course",
+//         price: 12999
+//     },
+// ]
 
-const priceTopay = shopingcart.reduce( (acc, item) => item.price , 0)
+// const priceTopay = shopingcart.reduce( (acc, item) => item.price , 0)
 
-console.log(priceTopay);
+// console.log(priceTopay);
