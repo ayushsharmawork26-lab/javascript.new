@@ -62,3 +62,21 @@
     // console.log(result);
 
 // Output: 1> [2, 4, 6, 8]
+
+// Q7. Numbers Greater Than 50
+// Solve:=>
+    // const Numbers = [20, 45, 60, 75, 30, 90];
+    //  const result = Numbers.filter((num) => num > 50);
+
+    //  console.log(result);
+
+// Output: 1> [60, 75, 90]
+
+// Q8. Filter Names Starting with A
+// Solve:=>
+    // const names = ["Ayush", "Rahul", "Aman", "Rahul", "Ankit"];
+    // const result = names.filter((name) => name.startsWith("A"));
+
+    // console.log(result);
+
+// Output: 1> ["Ayush", "Aman", "Ankit"]
