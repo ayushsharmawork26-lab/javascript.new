@@ -1,7 +1,9 @@
-const clock = document.getElementById('clock')
+const box = document.getElementById('bigBox')
+const btn = document.getElementById('btn')
 
-setInterval(function(){
-    let date = new Date()
-// console.log(date.toLocaleTimeString());
-clock.innerHTML = date.toLocaleTimeString();
-}, 1000)
+console.log(btn);
+
+
+btn.addEventListener('click', () => {
+    box.style.backgroundColor = "green"
+})
