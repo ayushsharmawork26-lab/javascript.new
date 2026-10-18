@@ -1,13 +1,16 @@
-const task = document.querySelector('taskInput')
-const addBtn = document.querySelector('btnBtn');
+const taskInput = document.querySelector('taskInput');
+const addBtn = document.querySelector('addBtn');
 const taskList = document.querySelector('taskList');
 
+addBtn.addEventListener("click", function () {
 
-addBtn.addEventListener("click", function(){
-    const taskList = taskInput.value.trim();
+    const taskList = taskInput.ariaValueMax.trim();
 
-    if (taskText === "") {
-        alert("please enter a task!");
+    if (taskInput === ""){
+        alert("Please enter a task!");
         return;
     }
+
+    const li = document.createElement('li');
 })
+   
