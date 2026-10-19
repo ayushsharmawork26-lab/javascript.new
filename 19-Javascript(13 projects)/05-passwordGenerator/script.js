@@ -32,4 +32,33 @@ function generatePassword() {
         const randomIndex  = Math.floor(Math.random() * chars.length);
         password += chars[randomIndex];
     }
+
+    passwordInput.value = password;
+    message.textContent = "password successfully generated! ✅";
 }
+
+// Generate button event
+generateBtn.addEventListener("click", generatePassword);
+
+// Copy password function
+copyBtn.addEventListener("click",async function () {
+const password = passwordInput.value;    
+  if (password === "") {
+    message.textContent = "Pehle password generate karo!";
+    return;
+}
+
+try {
+    await navigator.clipboard.writeText(password);
+    message.textContent = "Password copied successfully! ✅";
+} catch (error) {
+    passwordInput.select();
+    const copied = document.execCommand("copy");
+
+    message.textContent = copied
+        ? "Password copied successfully! ✅"
+        : "Password copy nahi hua. Manually copy karo.";
+}
+
+});   
+ 
