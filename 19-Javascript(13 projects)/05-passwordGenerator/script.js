@@ -16,4 +16,20 @@ function generatePassword() {
         passwordInput.value = "";
         return;
     }
+
+    // Default characters
+     let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    // Include symbols
+    if (symbolsCheckbox.checked) {
+        chars += "!@#$%^&*()_+-=[]{}|;:,.<>?"; 
+    } 
+
+    let password = "";
+
+    // Generate random password
+    for (let i = 0; i < length; i++) {
+        const randomIndex  = Math.floor(Math.random() * chars.length);
+        password += chars[randomIndex];
+    }
 }
