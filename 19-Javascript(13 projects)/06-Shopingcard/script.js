@@ -40,3 +40,19 @@ const products = [
     }
     
 ];
+
+let card = JSON.parse(localStorage.getItem("shoppingCart")) || [];
+
+const productsContainer = document.querySelector("#products");
+const cartItems = document.querySelector("#cart-items");
+const cartCount = document.querySelector("#cart-count");
+const totalElement = document.querySelector("#total");
+const clearCartBtn = document.querySelector("#clear-cart");
+
+// Display products
+function displayProducts() {
+productsContainer.innerHTML = products.map(product => <div class="product-card"> 
+<div class="product-image">${product.image}</div> <h3>${product.name}</h3> 
+<p class="price">₹${product.price.toLocaleString("en-IN")}</p> 
+<button class="add-btn" data-id="${product.id}"> Add to Cart </button> </div> ).join("");
+}
