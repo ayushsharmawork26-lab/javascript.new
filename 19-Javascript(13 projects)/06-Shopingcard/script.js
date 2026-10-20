@@ -56,3 +56,21 @@ productsContainer.innerHTML = products.map(product => <div class="product-card">
 <p class="price">₹${product.price.toLocaleString("en-IN")}</p> 
 <button class="add-btn" data-id="${product.id}"> Add to Cart </button> </div> ).join("");
 }
+
+// Add product to cart
+function addToCart(id) {
+const existingProduct = cart.find(item => item.id === id);
+
+if (existingProduct) {
+    existingProduct.quantity++;
+} else {
+    const product = products.find(item => item.id === id);
+
+    if (product) {
+        cart.push({
+            ...product,
+            quantity: 1
+        });
+    }
+}
+}
